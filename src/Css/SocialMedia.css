@@ -1,0 +1,7 @@
+#socialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 3%;
+  padding-top: 50px;
+}

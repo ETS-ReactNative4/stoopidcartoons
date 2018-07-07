@@ -1,0 +1,16 @@
+#navigationUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-size: 20px;
+}
+
+.navigationLi {
+  margin: 0 3%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
