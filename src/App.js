@@ -6,7 +6,7 @@ import Particles from 'react-particles-js';
 const particlesOptions = {
   particles: {
     number: {
-      value: 150,
+      value: 190,
       density: {
         enable: true
       }
@@ -18,7 +18,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Particles id="particles" params={particlesOptions} />
+        <div id="particles">
+          <Particles params={particlesOptions} />
+        </div>
         <Header />
       </div>
     );

@@ -5,3 +5,8 @@
   margin-right: 3%;
   padding-top: 50px;
 }
+
+.socialMediaImages {
+  display: inline-block;
+  margin: 3px;
+}

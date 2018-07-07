@@ -8,10 +8,10 @@ import '../Css/SocialMedia.css';
 const SocialMedia = () => {
   return (
     <div id="socialMediaIcons">
-      <img src={facebook} alt="Facebook" />
-      <img src={youtube} alt="Youtube" />
-      <img src={twitter} alt="Twitter" />
-      <img src={instagram} alt="Instagram" />
+      <img className="socialMediaImages" src={facebook} alt="Facebook" />
+      <img className="socialMediaImages" src={youtube} alt="Youtube" />
+      <img className="socialMediaImages" src={twitter} alt="Twitter" />
+      <img className="socialMediaImages" src={instagram} alt="Instagram" />
     </div>
   );
 };
