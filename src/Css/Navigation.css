@@ -2,8 +2,9 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: end;
-  font-size: 20px;
+  justify-content: flex-end;
+  font-size: 30px;
+  padding-left: 0;
 }
 
 .navigationLi {

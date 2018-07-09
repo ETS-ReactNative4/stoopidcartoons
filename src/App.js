@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
-import Header from '../src/Components/Header';
-import Particles from 'react-particles-js';
+import React, { Component } from "react";
+import "./App.css";
+import Header from "../src/Components/Header";
+import Particles from "react-particles-js";
 
 const particlesOptions = {
   particles: {
@@ -21,7 +21,14 @@ class App extends Component {
         <div id="particles">
           <Particles params={particlesOptions} />
         </div>
-        <Header />
+        <div
+          style={{
+            marginLeft: "10%",
+            marginRight: "10%"
+          }}
+        >
+          <Header />
+        </div>
       </div>
     );
   }
