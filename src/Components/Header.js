@@ -1,15 +1,15 @@
-import React from "react";
-import "../Css/Header.css";
-import Logo from "./Logo";
-import Navigation from "./Navigation";
-import SocialMedia from "./SocialMedia";
+import React from 'react';
+import '../Css/Header.css';
+import Logo from './Logo';
+import Navigation from './Navigation';
+import SocialMedia from './SocialMedia';
 
 const Header = () => {
   return (
     <div
-      style={{
-        height: "100vh"
-      }}
+    // style={{
+    //   height: "100vh"
+    // }}
     >
       <Logo />
       <SocialMedia />

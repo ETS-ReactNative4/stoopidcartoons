@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import "./App.css";
-import Header from "../src/Components/Header";
-import Particles from "react-particles-js";
+import React, { Component } from 'react';
+import './App.css';
+import Header from '../src/Components/Header';
+import Particles from 'react-particles-js';
+import HomeGallery from '../src/Components/HomeGallery';
 
 const particlesOptions = {
   particles: {
@@ -23,11 +24,14 @@ class App extends Component {
         </div>
         <div
           style={{
-            marginLeft: "10%",
-            marginRight: "10%"
+            marginLeft: '15%',
+            marginRight: '15%'
           }}
         >
           <Header />
+          <div id="home-gallery">
+            <HomeGallery />
+          </div>
         </div>
       </div>
     );
