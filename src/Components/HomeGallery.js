@@ -5,8 +5,8 @@ import '../Css/HomeGallery.css';
 
 /*nazivo import only for testing...will change this later */
 import image1 from '../Assets/Games/BabyPhone/nas.png';
-import image2 from '../Assets/Games/BabyPhone/nas.png';
-import image3 from '../Assets/Games/BabyPhone/nas.png';
+import image2 from '../Assets/Games/BalkanRoads/balkan.png';
+import image3 from '../Assets/Games/CowboyDuel/naslovna.png';
 
 /*nazivo import only for testing...will change this later */
 
@@ -48,7 +48,7 @@ class HomeGallery extends Component {
         showNav={false}
         showBullets={true}
         infinite={true}
-        autoPlay={false} /*Change this later to true */
+        autoPlay={true} /*Change this later to true */
         items={this.images}
       />
     );
