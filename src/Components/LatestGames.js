@@ -4,7 +4,11 @@ import '../Css/LatestGames.css';
 
 const LatestGames = props => {
   return (
-    <div>
+    <div
+      style={{
+        margin: '0 5%'
+      }}
+    >
       <div id="latest-games-div">
         <span className="latest-games-span">Latest Games</span>
         <span className="latest-games-span">View All></span>

@@ -9,7 +9,7 @@ const Footer = () => {
         fontSize: '12px'
       }}
     >
-      © 2018 St00pid Cart00ns. "St00pid Catoons" is registered trademark. All
+      © 2018 St00pid Cart00ns. "St00pid Cart00ns" is registered trademark. All
       rights reserved. All other trademarks are the property of their respective
       owners. <br />
       Privacy Policy and Terms of Service

@@ -147,6 +147,13 @@ const LatestGamesCovers = [
   eMojiMachineCover
 ];
 
+const LogoImage = logo;
+
+const AllGames = GameCovers;
+
+export { LogoImage };
 export { GameCovers };
 export { SocialMediaIcons };
 export { LatestGamesCovers };
+export { AllGames };
+export { aboutUsCover };

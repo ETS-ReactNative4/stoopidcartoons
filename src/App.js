@@ -33,9 +33,9 @@ class App extends Component {
           <Header />
           <div id="home-gallery">
             <HomeGallery />
-            <LatestGames />
-            <Footer />
           </div>
+          <LatestGames />
+          <Footer />
         </div>
       </div>
     );
