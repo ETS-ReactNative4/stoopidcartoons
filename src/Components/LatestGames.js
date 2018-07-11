@@ -1,17 +1,19 @@
 import React from 'react';
-
-import image1 from '../Assets/Games/BabyPhone/nas.png';
-import image2 from '../Assets/Games/BalkanRoads/balkan.png';
-import image3 from '../Assets/Games/CowboyDuel/naslovna.png';
-
-const images = [image1, image2, image3];
+import { LatestGamesCovers } from '../Assets/index';
+import '../Css/LatestGames.css';
 
 const LatestGames = props => {
   return (
     <div>
-      {images.map(i => {
-        return <img key={i} src={i} alt={i} />;
-      })}
+      <div id="latest-games-div">
+        <span className="latest-games-span">Latest Games</span>
+        <span className="latest-games-span">View All></span>
+      </div>
+      <div>
+        {LatestGamesCovers.map(i => {
+          return <img className="latest-games" key={i} src={i} alt={i} />;
+        })}
+      </div>
     </div>
   );
 };

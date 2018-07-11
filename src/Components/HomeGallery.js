@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
 import '../Css/HomeGallery.css';
+import { GameCovers } from '../Assets/index';
 
 /*nazivo import only for testing...will change this later */
-import image1 from '../Assets/Games/BabyPhone/nas.png';
-import image2 from '../Assets/Games/BalkanRoads/balkan.png';
-import image3 from '../Assets/Games/CowboyDuel/naslovna.png';
+// import image1 from '../Assets/Games/BabyPhone/nas.png';
+// import image2 from '../Assets/Games/BalkanRoads/balkan.png';
+// import image3 from '../Assets/Games/CowboyDuel/naslovna.png';
 
 /*nazivo import only for testing...will change this later */
 
@@ -30,13 +31,61 @@ class HomeGallery extends Component {
   render() {
     this.images = [
       {
-        original: image1
+        original: GameCovers[0]
       },
       {
-        original: image2
+        original: GameCovers[2]
       },
       {
-        original: image3
+        original: GameCovers[3]
+      },
+      {
+        original: GameCovers[4]
+      },
+      {
+        original: GameCovers[5]
+      },
+      {
+        original: GameCovers[6]
+      },
+      {
+        original: GameCovers[7]
+      },
+      {
+        original: GameCovers[8]
+      },
+      {
+        original: GameCovers[9]
+      },
+      {
+        original: GameCovers[10]
+      },
+      {
+        original: GameCovers[1]
+      },
+      {
+        original: GameCovers[11]
+      },
+      {
+        original: GameCovers[12]
+      },
+      {
+        original: GameCovers[13]
+      },
+      {
+        original: GameCovers[14]
+      },
+      {
+        original: GameCovers[15]
+      },
+      {
+        original: GameCovers[16]
+      },
+      {
+        original: GameCovers[17]
+      },
+      {
+        original: GameCovers[18]
       }
     ];
 
