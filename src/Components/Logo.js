@@ -1,9 +1,14 @@
-import React from 'react';
-import '../Css/Logo.css';
-import { LogoImage } from '../Assets/index';
+import React from "react";
+import "../Css/Logo.css";
+import { LogoImage } from "../Assets/index";
+import { NavLink } from "react-router-dom";
 
 const Logo = () => {
-  return <img id="logo" src={LogoImage} alt="Logo" />;
+  return (
+    <NavLink to="/">
+      <img id="logo" src={LogoImage} alt="Logo" />
+    </NavLink>
+  );
 };
 
 export default Logo;
