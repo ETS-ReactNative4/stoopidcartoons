@@ -4,3 +4,9 @@
   height: 150px;
   margin: 25px 0 0 3%;
 }
+
+@media (max-width: 991px) {
+  #logo {
+    display: none;
+  }
+}
