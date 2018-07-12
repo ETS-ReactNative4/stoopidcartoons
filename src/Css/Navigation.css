@@ -9,6 +9,82 @@
 
 a {
   text-decoration: none;
-  color: red;
+  color: #af1f1f;
   margin: 0 3%;
+}
+
+nav {
+  overflow: hidden;
+  /* border-bottom: 1px solid #473016; */
+  border-radius: 10px;
+}
+nav li {
+  font-size: 25px;
+  font-weight: bold;
+  color: #af1f1f;
+}
+
+nav li:hover {
+  background-color: #af1f1f;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav li:visited {
+  color: #af1f1f;
+}
+nav .navWide {
+  display: none;
+  margin: 0 auto;
+}
+nav .navWide .wideDiv {
+  text-align: center;
+}
+nav .navWide .wideDiv li {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 15px;
+}
+nav .navNarrow img {
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  color: whitesmoke;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+nav .navNarrow .narrowLinks {
+  display: none;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+nav .navNarrow .narrowLinks li {
+  text-decoration: none;
+  display: block;
+  float: left;
+  clear: left;
+  padding: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+@media (max-width: 1180px) {
+  nav .navWide .wideDiv li {
+    font-size: 18px;
+    padding: 13px 10px;
+  }
+}
+
+@media (min-width: 991px) {
+  nav .navWide {
+    display: block;
+  }
+  nav .navNarrow {
+    display: none;
+  }
 }

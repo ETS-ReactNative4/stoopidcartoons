@@ -1,26 +1,69 @@
-import React from "react";
+import React, { Component } from "react";
 import "../Css/Navigation.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { LogoImage } from "../Assets/index";
 
-const Navigation = () => {
-  return (
-    <nav>
-      <ul id="navigationUl">
-        <NavLink to="/">
-          <li className="navigationLi">Home</li>
-        </NavLink>
-        <NavLink to="/games">
-          <li className="navigationLi">Games</li>
-        </NavLink>
-        <NavLink to="aboutus">
-          <li className="navigationLi">About</li>
-        </NavLink>
-        <NavLink to="contactus">
-          <li className="navigationLi">Contact</li>
-        </NavLink>
-      </ul>
-    </nav>
-  );
+const burgerToggle = () => {
+  let linksEl = document.querySelector(".narrowLinks");
+  if (linksEl.style.display === "block") {
+    linksEl.style.display = "none";
+  } else {
+    linksEl.style.display = "block";
+  }
 };
+
+class Navigation extends Component {
+  render() {
+    return (
+      <nav>
+        <div className="navWide">
+          <div className="wideDiv">
+            <ul>
+              <Link to="/">
+                <li>Home</li>
+              </Link>
+
+              <Link to="/games">
+                <li>Games</li>
+              </Link>
+
+              <Link to="/aboutus">
+                <li>About</li>
+              </Link>
+              <Link to="/contactus">
+                <li>Contact</li>
+              </Link>
+            </ul>
+          </div>
+        </div>
+        <div className="navNarrow">
+          <img
+            src={LogoImage}
+            alt="logo"
+            className="fa fa-bars fa-2x"
+            onClick={burgerToggle}
+          />
+
+          <div className="narrowLinks">
+            <ul>
+              <Link to="/">
+                <li onClick={burgerToggle}>HOME</li>
+              </Link>
+              <Link to="/games">
+                <li onClick={burgerToggle}>GAMES</li>
+              </Link>
+              <Link to="/aboutus">
+                <li onClick={burgerToggle}>ABOUT</li>
+              </Link>
+              <Link to="/contactus">
+                <li onClick={burgerToggle}>CONTACT</li>
+              </Link>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    );
+  }
+}
 
 export default Navigation;
