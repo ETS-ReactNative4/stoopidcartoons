@@ -46,10 +46,9 @@ nav .navWide .wideDiv li {
   padding: 15px 15px;
 }
 nav .navNarrow img {
-  float: right;
-  margin-top: 30px;
+  float: right; 
   margin-bottom: 30px;
-  margin-right: 30px;
+  margin-right: 200px;
   width: 70px;
   height: 70px;
   cursor: pointer;
