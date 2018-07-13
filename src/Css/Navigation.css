@@ -46,7 +46,7 @@ nav .navWide .wideDiv li {
   padding: 15px 15px;
 }
 nav .navNarrow img {
-  float: right;
+  /* float: right; */
   margin-bottom: 30px;
   margin-right: 75%;
   width: 70px;
@@ -73,6 +73,14 @@ ul {
   padding: 0;
 }
 
+#socialMediaIconsNavigation {
+  float: right;
+  margin-top: -80px;
+}
+#navigationBorder {
+  margin: 0 5%;
+}
+
 @media (max-width: 1180px) {
   nav .navWide .wideDiv li {
     font-size: 18px;
@@ -85,6 +93,9 @@ ul {
     display: block;
   }
   nav .navNarrow {
+    display: none;
+  }
+  #socialMediaIconsNavigation {
     display: none;
   }
 }

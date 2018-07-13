@@ -10,3 +10,12 @@
   display: inline-block;
   margin: 3px;
 }
+
+@media (max-width: 991px) {
+  .socialMediaImages {
+    display: none;
+  }
+  #socialMediaIcons {
+    display: none;
+  }
+}
