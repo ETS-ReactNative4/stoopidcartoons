@@ -47,8 +47,8 @@ nav .navWide .wideDiv li {
 }
 nav .navNarrow img {
   /* float: right; */
-  margin-bottom: 30px;
-  margin-right: 75%;
+  /* margin-bottom: 30px; */
+  /* margin-right: 75%; */
   width: 70px;
   height: 70px;
   cursor: pointer;
@@ -74,11 +74,19 @@ ul {
 }
 
 #socialMediaIconsNavigation {
-  float: right;
-  margin-top: -80px;
+  /* float: right; */
+  margin-top: 25px;
 }
 #navigationBorder {
   margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: auto;
+}
+
+.socialMediaImagesNavigation {
+  margin: 0 5px;
 }
 
 @media (max-width: 1180px) {
