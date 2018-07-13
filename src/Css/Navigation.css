@@ -79,10 +79,6 @@ ul {
 }
 #navigationBorder {
   margin: 0 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: auto;
 }
 
 .socialMediaImagesNavigation {
@@ -105,5 +101,14 @@ ul {
   }
   #socialMediaIconsNavigation {
     display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  #navigationBorder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: auto;
   }
 }
