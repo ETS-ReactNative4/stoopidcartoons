@@ -5,7 +5,7 @@
   margin: 1%;
 }
 
-#latest-games-div {
+.latest-games-div {
   display: flex;
   justify-content: space-between;
   margin: 5% 1% 0 1%;

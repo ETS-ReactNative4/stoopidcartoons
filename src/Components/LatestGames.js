@@ -9,7 +9,7 @@ const LatestGames = props => {
         margin: '0 5%'
       }}
     >
-      <div id="latest-games-div">
+      <div className="latest-games-div">
         <span className="latest-games-span">Latest Games</span>
         <span className="latest-games-span">View All></span>
       </div>

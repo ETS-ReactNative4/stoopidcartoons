@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import ImageGallery from "react-image-gallery";
-import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
-import "../Css/HomeGallery.css";
-import { GameCovers } from "../Assets/index";
+import React, { Component } from 'react';
+import ImageGallery from 'react-image-gallery';
+import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import '../Css/HomeGallery.css';
+import { GameCovers } from '../Assets/index';
 
 class HomeGallery extends Component {
   constructor() {
@@ -21,6 +21,7 @@ class HomeGallery extends Component {
       slideInterval: 3000
     };
   }
+
   render() {
     this.images = [
       {
@@ -90,8 +91,9 @@ class HomeGallery extends Component {
         showNav={false}
         showBullets={true}
         infinite={true}
-        autoPlay={false} /*Change this later to true */
+        autoPlay={true} /*Change this later to true */
         items={this.images}
+        slideInterval={5000}
       />
     );
   }

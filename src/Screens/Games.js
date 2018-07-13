@@ -8,7 +8,7 @@ const Games = () => {
   return (
     <div>
       <AboutUsCoverImage />
-      <div>
+      <div style={{ margin: '0 5%' }}>
         {AllGames.map(i => {
           return <img className="latest-games" key={i} src={i} alt={i} />;
         })}

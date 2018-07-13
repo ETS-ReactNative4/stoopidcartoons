@@ -111,4 +111,7 @@ ul {
     justify-content: space-between;
     align-self: auto;
   }
+  nav li {
+    font-size: 15px;
+  }
 }
