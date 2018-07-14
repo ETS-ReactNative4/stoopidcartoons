@@ -8,7 +8,8 @@ const Footer = () => {
         textAlign: "center",
         color: "white",
         fontSize: "12px",
-        paddingBottom: "20px"
+        paddingBottom: "20px",
+        minHeight: "100vh"
       }}
     >
       © 2018 St00pid Cart00ns. "St00pid Cart00ns" is registered trademark. All
