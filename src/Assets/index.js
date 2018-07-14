@@ -8,6 +8,7 @@ import twitter from './Icons/twitter.png';
 import youtube from './Icons/youtube.png';
 
 import logo from './logo.png';
+import googlePlay from './Icons/googleplay.png';
 
 import babyPhoneCover from './Games/BabyPhone/BabyPhoneCover.png';
 import babyPhoneCoverSmall from './Games/BabyPhone/BabyPhoneCoverSmall.png';
@@ -190,9 +191,15 @@ const AllGames = [
   babyPhoneCoverSmall
 ];
 
+const BigBen = [bigBenCover, bigBen1, bigBen2, bigBen3];
+
 export { LogoImage };
 export { GameCovers };
 export { SocialMediaIcons };
 export { LatestGamesCovers };
 export { AllGames };
 export { aboutUsCover };
+export { googlePlay };
+
+//SingleGameExports
+export { BigBen };

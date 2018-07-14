@@ -36,6 +36,9 @@ class Navigation extends Component {
                 <Link to="/contactus">
                   <li>Contact</li>
                 </Link>
+                <Link to="/singlegame">
+                  <li>SingleGameTestPage</li>
+                </Link>
               </ul>
             </div>
           </div>
