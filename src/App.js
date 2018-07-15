@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from '../src/Components/Header';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Home from './Screens/Home';
 import AboutUs from './Screens/AboutUs';
 import ContactUs from './Screens/ContactUs';
@@ -14,16 +14,16 @@ import SingleGame from './Screens/SingleGame';
 
 import { Switch, Route } from 'react-router-dom';
 
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 190,
-      density: {
-        enable: true
-      }
-    }
-  }
-};
+// const particlesOptions = {
+//   particles: {
+//     number: {
+//       value: 190,
+//       density: {
+//         enable: true
+//       }
+//     }
+//   }
+// };
 
 class App extends Component {
   render() {

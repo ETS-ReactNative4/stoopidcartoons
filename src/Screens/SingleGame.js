@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import AllGamesComponent from "../Components/AllGamesComponent";
-import ImageGallery from "react-image-gallery";
-import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
-import { googlePlay } from "../Assets/index";
+import React, { Component } from 'react';
+import AllGamesComponent from '../Components/AllGamesComponent';
+import ImageGallery from 'react-image-gallery';
+import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import { googlePlay } from '../Assets/index';
 
 //imports
 
-import { BigBen } from "../Assets/index";
-import "../Css/AboutUsCoverImage.css";
+import { BigBen } from '../Assets/index';
+import '../Css/AboutUsCoverImage.css';
 
 class SingleGame extends Component {
   render() {
@@ -28,19 +28,23 @@ class SingleGame extends Component {
       <div>
         {/* BigImageCoverDiv */}
         <div className="big-cover-image">
-          <img style={{ width: "100%" }} src={BigBen[0]} alt="Cover Image" />
+          <img
+            style={{ width: '100%', borderRadius: '15px' }}
+            src={BigBen[0]}
+            alt=" "
+          />
         </div>
 
         <div
           style={{
-            display: "flex"
+            display: 'flex'
           }}
         >
           {/* Text div */}
           <div
             style={{
-              width: "50%",
-              height: "auto"
+              width: '50%',
+              height: 'auto'
             }}
           >
             <strong>CATEGORY:</strong>
@@ -63,7 +67,7 @@ class SingleGame extends Component {
             {/* DownloadLinksDiv */}
             <div
               style={{
-                marginTop: "5%"
+                marginTop: '5%'
               }}
             >
               <img src={googlePlay} alt="Download now from GooglePlay" />
@@ -71,7 +75,7 @@ class SingleGame extends Component {
             {/* Share it div */}
             <div
               style={{
-                marginTop: "5%"
+                marginTop: '5%'
               }}
             >
               Shate It
@@ -81,10 +85,10 @@ class SingleGame extends Component {
           {/* Small Gallery Div */}
           <div
             style={{
-              width: "50%",
-              height: "50%",
-              overflow: "hidden",
-              borderRadius: "30px"
+              width: '50%',
+              height: '50%',
+              overflow: 'hidden',
+              borderRadius: '30px'
             }}
           >
             <ImageGallery
@@ -94,8 +98,7 @@ class SingleGame extends Component {
               showNav={false}
               showBullets={true}
               infinite={true}
-              autoPlay={true} /*Change this later to true */
-              items={this.images}
+              autoPlay={true}
               slideInterval={5000}
               items={images}
             />
