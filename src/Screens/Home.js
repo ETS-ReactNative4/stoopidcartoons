@@ -22,6 +22,7 @@ class Home extends Component {
           onClick={() => {
             document.querySelector("#home-gallery").style.display = "none";
             this.setState({ data: LatestGamesCovers[3] });
+            window.scroll(0, 0);
           }}
           style={{ cursor: "pointer" }}
           alt=""
@@ -31,8 +32,10 @@ class Home extends Component {
           onClick={() => {
             document.querySelector("#home-gallery").style.display = "none";
             this.setState({ data: LatestGamesCovers[1] });
+            window.scroll(0, 0);
           }}
           style={{ cursor: "pointer" }}
+          alt=""
         />
       </div>
     );
