@@ -1,8 +1,9 @@
-import React from 'react';
-import '../Css/Header.css';
-import Logo from './Logo';
-import Navigation from './Navigation';
-import SocialMedia from './SocialMedia';
+import React from "react";
+import "../Css/Header.css";
+import Logo from "./Logo";
+import Navigation from "./Navigation";
+import SocialMedia from "./SocialMedia";
+
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
       <Logo />
       <SocialMedia />
       <Navigation />
+
     </div>
   );
 };
