@@ -1,11 +1,17 @@
-import React from 'react';
+/*
+**************************
+*                         *     
+*     Assets Imports      *
+*                         *
+************************** 
+*/
+
 import aboutUsCover from './AboutUs/AboutUsCover.png';
-import { Link } from 'react-router-dom';
 
 import facebook from './Icons/facebook.png';
 import instagram from './Icons/instagram.png';
-import share1 from './Icons/share1.png';
-import share from './Icons/share.png';
+import shareIcon1 from './Icons/share1.png';
+import shareIcon from './Icons/share.png';
 import twitter from './Icons/twitter.png';
 import youtube from './Icons/youtube.png';
 
@@ -133,6 +139,437 @@ import zigZagSky2 from './Games/ZigZagSky/ZigZagSky2.png';
 import zigZagSky3 from './Games/ZigZagSky/ZigZagSky3.png';
 import zigZagSky4 from './Games/ZigZagSky/ZigZagSky4.png';
 
+/*
+**************************
+*                         *     
+*     Assets Imports      *
+*                         *
+************************** 
+*/
+
+/*
+**************************
+*                         *     
+*TEXT constants and links *
+*                         *
+************************** 
+*/
+
+const babyPhoneYouTube = '#';
+const babyPhoneDescription =
+  'Baby Phone is a learning and entertaining application for children. The baby phone is really simple, fun and interactive. Even the smallest kids will be able to play.';
+const babyPhoneDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.babyphone';
+const babyPhoneCategory = 'Education';
+
+const balkanRoadsYouTube = '#';
+const balkanRoadsDescription =
+  'Come along a wild ride through the roads of Balkan. You will encounter crazy obstacles like holes, roadblocks, speeding cars and the occasional chicken crossing the road - just like the real roads on the Balkans.';
+const balkanRoadsDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.balkanroads';
+const balkanRoadsCategory = 'Action';
+
+const bankEscapeYouTube = 'https://www.youtube.com/watch?v=TQnyzWsp5X8';
+const bankEscapeDescription =
+  "Escape from the bank with the money and don't get yourself arrested!";
+const bankEscapeDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.bankescape';
+const bankEscapeCategory = 'Action';
+
+const bigBenYouTube = '#';
+const bigBenDescription = 'Carry the sounds of the Big Ben wherever you go';
+const bigBenDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.bigben';
+const bigBenCategory = 'Entertainment';
+
+const cowboyDuelYouTube = 'https://www.youtube.com/watch?v=ZSon05IJwW0';
+const cowboyDuelDescription =
+  'Shoot through obstacles and try to defeat your enemy before time runs out.';
+const cowboyDuelDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.cowboyduel';
+const cowboyDuelCategory = 'Action';
+
+const doodleFidgetSpinnerYouTube = '#';
+const doodleFidgetSpinnerDescription =
+  "Blow off steam by playing this cool doodle fidget spinner simulator game.It's free game and easy to play. Just spin the fidget spinner.";
+const doodleFidgetSpinnerDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.DoodleFidgetSpinner';
+const doodleFidgetSpinnerCategory = 'Simulation';
+
+const eMojiMachineYouTube = '#';
+const eMojiMachineDescription =
+  'Help the emoji machine to conquer the world with his cool emoji. Hit opponents with happens emoji and turn into zombies and take their money. How many zombies can you kill?';
+const eMojiMachineDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.iphonex';
+const eMojiMachineCategory = 'Adventure';
+
+const fiveSecondsStressTestYouTube = '#';
+const fiveSecondsStressTestDescription =
+  'How many times did it happen to you - you try to relax on a day off, but your brain keeps taking you back to all the things you need to do? Situations like these have become normal in our day to day life, but our health reacts vary negatively to it. Using this 5 Seconds Stress Test you will find out if you are exposed to big or bearable stress. All you need to do is to focus on a part of the picture in this 5 Seconds Stress Test and look at it for five seconds.';
+const fiveSecondsStressTestDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.stresstest';
+const fiveSecondsStressTestCategory = 'Entertainment';
+
+const gastarbajterYouTube = 'https://www.youtube.com/watch?v=VEYructqApQ';
+const gastarbajterDescription =
+  'Help Djuro to learn the language, collect all of the necessary documents, go to Europe and finally fulfill his dream.';
+const gastarbajterDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.gastarbajter';
+const gastarbajterCategory = 'Adventure';
+
+const godVsStickmanYouTube = 'https://www.youtube.com/watch?v=6YJWuai4oe8';
+const godVsStickmanDescription =
+  'Stickmen have sinned. You are the hand that gets to punish them. Burn as many stickmen as you can before time runs out.';
+const godVsStickmanDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.godvsstickman';
+const godVsStickmanCategory = 'Action';
+
+const kissTheBossYouTube = 'https://www.youtube.com/watch?v=hVe6pIG1MTw&t=3s';
+const kissTheBossDescription =
+  "Try to kiss your boss's butt as fast as you can. Faster and better kisser - better chances not to get fired.";
+const kissTheBossDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.kisstheboss';
+const kissTheBossCategory = 'Entertainment';
+
+const mindReaderYouTube = '#';
+const mindReaderDescription =
+  'Retro Mind Reader Machine will randomly select cards. It is up to you to remember one card and the set of cards that it was chosen from and Retro Mind Reader Machine will do the rest and read your mind!';
+const mindReaderDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.mindreader';
+const mindReaderCategory = 'Entertainment';
+
+const naymarChallengeYouTube = '#';
+const naymarChallengeDescription =
+  "Gently touch Neymar and prevent him from playing a penalty kick. Beware of cards! The yellow card takes 5 points, but if you get a red card, it's game over! Notice the time as well!";
+const naymarChallengeDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.neymarchellenge';
+const naymarChallengeCategory = 'Action';
+
+const podMac555YouTube = '#';
+const podMac555Description =
+  '555-333 je zazvonio a ove sedmice dezurni si ti, zato viteže mač u ruke i bam bam bam! Budi vitez Miroljuba Petrovica koji ce pobjediti neprijatelje i ponovo uspostaviti dusanovo carstvo. Stavi pod mac sve one kojima je mozak u alfa rezimu, pronadi djelove dusanovog zakonika, uspostavi zakone i vrati Teokraciju.';
+const podMac555DownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.podmac555333';
+const podMac555Category = 'Role Playing';
+
+const podMacBatoYouTube = '#';
+const podMacBatoDescription =
+  'Obožavatelji Dr. Miroljuba Petrovića od sada na jednom mjestu, mogu preslušati njegove najslavnije izjave. 555-333, IDEŠ POD MAČ BATO, KAKVE BRE PENZIJE, MLADI LUDUJU, AL SAM SE SINOĆ NAPIO...samo su neke od izjava koje možete čuti.';
+const podMacBatoDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.podmacbato';
+const podMacBatoCategory = 'Entertainment';
+
+const santaTheLostPresentsYouTube = '#';
+const santaTheLostPresentsDescription =
+  'On his way from The North Pole, Santa lost his presents. Now he must retrieve them all so he can make his deliveries to all good children around the world. Can you help him retrieve them all?';
+const santaTheLostPresentsDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.santaslostpresents';
+const santaTheLostPresentsCategory = 'Action';
+
+const theBirdsYouTube = 'https://www.youtube.com/watch?v=WO7RQoXQ0yU&t=1s';
+const theBirdsDescription =
+  'Move wings and fly through 4 different stages. Help birds to flutter and get as far as possible. Tap the screen to flap your wings of a bird and avoid obstacles.';
+const theBirdsDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.thebirds';
+const theBirdsCategory = 'Arcade';
+
+const zeroDeathsYouTube = '#';
+const zeroDeathsDescription = 'COMING SOON';
+const zeroDeathsDownloadLink = '#';
+const zeroDeathsCategory = 'Action';
+
+const zigZagSkyYouTube = '#';
+const zigZagSkyDescription =
+  'Zig Zag Ski is skiing game from top of mountain to down. It has endless gameplay. Zig Zag ski has simple control: Just tap for turn. Zig Zag as far as possible on this endless powder snow! Collect coins to purchase new characters';
+const zigZagSkyDownloadLink =
+  'https://play.google.com/store/apps/details?id=com.stoopidcartoons.zigzagski';
+const zigZagSkyCategory = 'Arcade';
+
+/*
+**************************
+*                         *     
+*TEXT constants and links *
+*                         *
+************************** 
+*/
+
+/*
+**************************
+*                         *     
+*   Map Function Arrays   *
+*                         *
+************************** 
+*/
+// raspored: mali cover, veliki cover, galerija,
+// kategorija, youtube, opis, download
+
+const babyPhone = [
+  babyPhoneCoverSmall,
+  babyPhoneCover,
+  babyPhone1,
+  babyPhone2,
+  babyPhone3,
+  babyPhone4,
+  babyPhoneCategory,
+  babyPhoneYouTube,
+  babyPhoneDescription,
+  babyPhoneDownloadLink
+];
+const balkanRoads = [
+  balkanRoadsCoverSmall,
+  balkanRoadsCover,
+  balkanRoads1,
+  balkanRoads2,
+  balkanRoads3,
+  balkanRoads2,
+  balkanRoadsCategory,
+  balkanRoadsYouTube,
+  balkanRoadsDescription,
+  balkanRoadsDownloadLink
+];
+const bankEscape = [
+  bankEscapeCoverSmall,
+  bankEscapeCover,
+  bankEscape1,
+  bankEscape2,
+  bankEscape3,
+  bankEscape4,
+  bankEscapeCategory,
+  bankEscapeYouTube,
+  bankEscapeDescription,
+  bankEscapeDownloadLink
+];
+const bigBen = [
+  bigBenCoverSmall,
+  bigBenCover,
+  bigBen1,
+  bigBen2,
+  bigBen3,
+  bigBen2,
+  bigBenCategory,
+  bigBenYouTube,
+  bigBenDescription,
+  bigBenDownloadLink
+];
+const cowboyDuel = [
+  cowboyDuelCoverSmall,
+  cowboyDuelCover,
+  cowboyDuel1,
+  cowboyDuel2,
+  cowboyDuel3,
+  cowboyDuel2,
+  cowboyDuelCategory,
+  cowboyDuelYouTube,
+  cowboyDuelDescription,
+  cowboyDuelDownloadLink
+];
+const doodleFidgetSpinner = [
+  doodleFidgetSpinnerCoverSmall,
+  doodleFidgetSpinnerCover,
+  doodleFidgetSpinner1,
+  doodleFidgetSpinner2,
+  doodleFidgetSpinner3,
+  doodleFidgetSpinner4,
+  doodleFidgetSpinnerCategory,
+  doodleFidgetSpinnerYouTube,
+  doodleFidgetSpinnerDescription,
+  doodleFidgetSpinnerDownloadLink
+];
+const eMojiMachine = [
+  eMojiMachineCoverSmall,
+  eMojiMachineCover,
+  eMojiMachine1,
+  eMojiMachine2,
+  eMojiMachine3,
+  eMojiMachine4,
+  eMojiMachineCategory,
+  eMojiMachineYouTube,
+  eMojiMachineDescription,
+  eMojiMachineDownloadLink
+];
+const fiveSecondsStressTest = [
+  fiveSecondsStressTestCoverSmall,
+  fiveSecondsStressTestCover,
+  fiveSecondsStressTest1,
+  fiveSecondsStressTest2,
+  fiveSecondsStressTest1,
+  fiveSecondsStressTest2,
+  fiveSecondsStressTestCategory,
+  fiveSecondsStressTestYouTube,
+  fiveSecondsStressTestDescription,
+  fiveSecondsStressTestDownloadLink
+];
+const gastarbajter = [
+  gastarbajterCoverSmall,
+  gastarbajterCover,
+  gastarbajter1,
+  gastarbajter2,
+  gastarbajter3,
+  gastarbajter2,
+  gastarbajterCategory,
+  gastarbajterYouTube,
+  gastarbajterDescription,
+  gastarbajterDownloadLink
+];
+const godVsStickman = [
+  godVsStickmanCoverSmall,
+  godVsStickmanCover,
+  godVsStickman1,
+  godVsStickman2,
+  godVsStickman3,
+  godVsStickman2,
+  godVsStickmanCategory,
+  godVsStickmanYouTube,
+  godVsStickmanDescription,
+  godVsStickmanDownloadLink
+];
+const kissTheBoss = [
+  kissTheBossCoverSmall,
+  kissTheBossCover,
+  kissTheBoss1,
+  kissTheBoss2,
+  kissTheBoss3,
+  kissTheBoss2,
+  kissTheBossCategory,
+  kissTheBossYouTube,
+  kissTheBossDescription,
+  kissTheBossDownloadLink
+];
+const mindReader = [
+  mindReaderCoverSmall,
+  mindReaderCover,
+  mindReader1,
+  mindReader2,
+  mindReader3,
+  mindReader2,
+  mindReaderCategory,
+  mindReaderYouTube,
+  mindReaderDescription,
+  mindReaderDownloadLink
+];
+const naymarChallenge = [
+  naymarChallengeCoverSmall,
+  naymarChallengeCover,
+  naymarChallenge1,
+  naymarChallenge2,
+  naymarChallenge3,
+  naymarChallenge4,
+  naymarChallengeCategory,
+  naymarChallengeYouTube,
+  naymarChallengeDescription,
+  naymarChallengeDownloadLink
+];
+const podMac555 = [
+  podMac555CoverSmall,
+  podMac555Cover,
+  podMac5551,
+  podMac5552,
+  podMac5553,
+  podMac5552,
+  podMac555Category,
+  podMac555YouTube,
+  podMac555Description,
+  podMac555DownloadLink
+];
+const podMacBato = [
+  podMacBatoCoverSmall,
+  podMacBatoCover,
+  podMacBato1,
+  podMacBato2,
+  podMacBato3,
+  podMacBato2,
+  podMacBatoCategory,
+  podMacBatoYouTube,
+  podMacBatoDescription,
+  podMacBatoDownloadLink
+];
+const santaTheLostPresents = [
+  santaTheLostPresentsCoverSmall,
+  santaTheLostPresentsCover,
+  santaTheLostPresents1,
+  santaTheLostPresents2,
+  santaTheLostPresents3,
+  santaTheLostPresents2,
+  santaTheLostPresentsCategory,
+  santaTheLostPresentsYouTube,
+  santaTheLostPresentsDescription,
+  santaTheLostPresentsDownloadLink
+];
+const theBirds = [
+  theBirdsCoverSmall,
+  theBirdsCover,
+  theBirds1,
+  theBirds2,
+  theBirds3,
+  theBirds4,
+  theBirdsCategory,
+  theBirdsYouTube,
+  theBirdsDescription,
+  theBirdsDownloadLink
+];
+const zeroDeaths = [
+  zeroDeathsCoverSmall,
+  zeroDeathsCover,
+  zeroDeaths1,
+  zeroDeaths2,
+  zeroDeaths3,
+  zeroDeaths4,
+  zeroDeathsCategory,
+  zeroDeathsYouTube,
+  zeroDeathsDescription,
+  zeroDeathsDownloadLink
+];
+const zigZagSky = [
+  zigZagSkyCoverSmall,
+  zigZagSkyCover,
+  zigZagSky1,
+  zigZagSky2,
+  zigZagSky3,
+  zigZagSky4,
+  zigZagSkyCategory,
+  zigZagSkyYouTube,
+  zigZagSkyDescription,
+  zigZagSkyDownloadLink
+];
+
+const arrayForMap = [
+  zeroDeaths,
+  naymarChallenge,
+  cowboyDuel,
+  zigZagSky,
+  bankEscape,
+  babyPhone,
+  kissTheBoss,
+  theBirds,
+  gastarbajter,
+  godVsStickman,
+  bigBen,
+  eMojiMachine,
+  balkanRoads,
+  doodleFidgetSpinner,
+  fiveSecondsStressTest,
+  mindReader,
+  santaTheLostPresents,
+  podMac555,
+  podMacBato
+];
+
+/*
+**************************
+*                         *     
+*   Map Function Arrays   *
+*                         *
+************************** 
+*/
+
+/*
+**************************
+*                         *     
+*      Other Arrays       *
+*                         *
+************************** 
+*/
+
 const GameCovers = [
   zeroDeathsCover,
   gastarbajterCover,
@@ -193,14 +630,22 @@ const AllGames = [
   babyPhoneCoverSmall
 ];
 
-const BigBen = [bigBenCover, bigBen1, bigBen2, bigBen3];
-const BabyPhone = [
-  babyPhoneCover,
-  babyPhone1,
-  babyPhone2,
-  babyPhone3,
-  babyPhone4
-];
+const share = [shareIcon, shareIcon1];
+/*
+**************************
+*                         *     
+*      Other Arrays       *
+*                         *
+************************** 
+*/
+
+/*
+**************************
+*                         *     
+*        Exports          *
+*                         *
+************************** 
+*/
 
 export { LogoImage };
 export { GameCovers };
@@ -209,7 +654,14 @@ export { LatestGamesCovers };
 export { AllGames };
 export { aboutUsCover };
 export { googlePlay };
+export { share };
 
-//SingleGameExports
-export { BigBen };
-export { BabyPhone };
+export { arrayForMap };
+
+/*
+**************************
+*                         *     
+*        Exports          *
+*                         *
+************************** 
+*/

@@ -118,4 +118,4 @@ class SingleGame extends Component {
     );
   }
 }
-export default SingleGame;
+//export default SingleGame;

@@ -1,10 +1,8 @@
-import React, { Component } from "react";
-import ImageGallery from "react-image-gallery";
-import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
-import "../Css/HomeGallery.css";
-import { GameCovers } from "../Assets/index";
-
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import ImageGallery from 'react-image-gallery';
+import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import '../Css/HomeGallery.css';
+import { GameCovers } from '../Assets/index';
 
 class HomeGallery extends Component {
   constructor() {
