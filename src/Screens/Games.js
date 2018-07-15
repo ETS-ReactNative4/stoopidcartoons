@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
+import '../Css/Home.css';
 
 import AboutUsCoverImage from '../Components/AboutUsCoverImage';
 
@@ -144,6 +145,7 @@ class Home extends Component {
         {arrayForMap.map(i => {
           return (
             <img
+              className="latest-games"
               src={i[0]}
               onClick={() => {
                 document.querySelector('#AboutUsCoverImage').style.display =
