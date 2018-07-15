@@ -5,7 +5,7 @@ import '../Css/AboutUsCoverImage.css';
 const AboutUsCoverImage = () => {
   return (
     <div className="big-cover-image">
-      <img style={{ width: '100%' }} src={aboutUsCover} alt=" " />
+      <img style={{ width: "100%" }} src={aboutUsCover} alt="" />
     </div>
   );
 };

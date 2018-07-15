@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import '../Css/Navigation.css';
-import { Link } from 'react-router-dom';
-import { LogoImage } from '../Assets/index';
+import React, { Component } from "react";
+import "../Css/Navigation.css";
+import { Link } from "react-router-dom";
+import { LogoImage } from "../Assets/index";
 
-import { SocialMediaIcons } from '../Assets/index';
+import { SocialMediaIcons } from "../Assets/index";
 
 const burgerToggle = () => {
-  let linksEl = document.querySelector('.narrowLinks');
-  if (linksEl.style.display === 'block') {
-    linksEl.style.display = 'none';
+  let linksEl = document.querySelector(".narrowLinks");
+  if (linksEl.style.display === "block") {
+    linksEl.style.display = "none";
   } else {
-    linksEl.style.display = 'block';
+    linksEl.style.display = "block";
   }
 };
 
@@ -22,8 +22,8 @@ class Navigation extends Component {
           <div className="navWide">
             <div className="wideDiv">
               <ul>
-                <Link to="/">
-                  <li>Home</li>
+                <Link to="/" onClick={() => this.reload()}>
+                  <li >Home</li>
                 </Link>
 
                 <Link to="/games">
@@ -35,9 +35,6 @@ class Navigation extends Component {
                 </Link>
                 <Link to="/contactus">
                   <li>Contact</li>
-                </Link>
-                <Link to="/singlegame">
-                  <li>SingleGameTestPage</li>
                 </Link>
               </ul>
             </div>
