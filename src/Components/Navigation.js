@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import '../Css/Navigation.css';
-import { Link } from 'react-router-dom';
-import { LogoImage } from '../Assets/index';
+import React, { Component } from "react";
+import "../Css/Navigation.css";
+import { Link } from "react-router-dom";
+import { LogoImage } from "../Assets/index";
 
-import { SocialMediaIcons } from '../Assets/index';
+import { SocialMediaIcons } from "../Assets/index";
 
 const burgerToggle = () => {
-  let linksEl = document.querySelector('.narrowLinks');
-  if (linksEl.style.display === 'block') {
-    linksEl.style.display = 'none';
+  let linksEl = document.querySelector(".narrowLinks");
+  if (linksEl.style.display === "block") {
+    linksEl.style.display = "none";
   } else {
-    linksEl.style.display = 'block';
+    linksEl.style.display = "block";
   }
 };
 
@@ -25,10 +25,10 @@ class Navigation extends Component {
                 <Link
                   to="/"
                   onClick={() => {
-                    setTimeout(function() {
-                      document.querySelector('#home-gallery').style.display =
-                        'block';
-                      document.querySelector('#start').style.display = 'none';
+                    setTimeout(() => {
+                      document.querySelector("#home-gallery").style.display =
+                        "block";
+                      document.querySelector("#start").style.display = "none";
                     }, 10);
                   }}
                 >
@@ -38,13 +38,13 @@ class Navigation extends Component {
                 <Link
                   to="/games"
                   onClick={() => {
-                    setTimeout(function() {
+                    setTimeout(() => {
                       document.querySelector(
-                        '#AboutUsCoverImage'
+                        "#AboutUsCoverImage"
                       ).style.display =
-                        'block';
-                      document.querySelector('#startGames').style.display =
-                        'none';
+                        "block";
+                      document.querySelector("#startGames").style.display =
+                        "none";
                     }, 10);
                   }}
                 >
