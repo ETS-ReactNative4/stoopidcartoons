@@ -4,7 +4,7 @@ import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
 
 import HomeGallery from '../Components/HomeGallery';
 
-import { LatestGamesCovers, arrayForMap, googlePlay } from '../Assets/index';
+import { LatestGames, googlePlay } from '../Assets/index';
 
 class Home extends Component {
   state = {
@@ -141,7 +141,7 @@ class Home extends Component {
 
         {/* END!!! */}
 
-        {arrayForMap.map(i => {
+        {LatestGames.map(i => {
           return (
             <img
               src={i[0]}
@@ -156,33 +156,6 @@ class Home extends Component {
             />
           );
         })}
-
-        {/* <img
-          style={{ width: '100%', height: 'auto' }}
-          src={this.state.data}
-          alt=" "
-        />
-
-        <img
-          src={LatestGamesCovers[2]}
-          onClick={() => {
-            document.querySelector('#home-gallery').style.display = 'none';
-            this.setState({ data: LatestGamesCovers[3] });
-            window.scroll(0, 0);
-          }}
-          style={{ cursor: 'pointer' }}
-          alt=""
-        />
-        <img
-          src={LatestGamesCovers[2]}
-          onClick={() => {
-            document.querySelector('#home-gallery').style.display = 'none';
-            this.setState({ data: LatestGamesCovers[1] });
-            window.scroll(0, 0);
-          }}
-          style={{ cursor: 'pointer' }}
-          alt=""
-        /> */}
       </div>
     );
   }

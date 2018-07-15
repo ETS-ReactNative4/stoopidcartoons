@@ -25,15 +25,29 @@ class Navigation extends Component {
                 <Link
                   to="/"
                   onClick={() => {
-                    document.querySelector('#home-gallery').style.display =
-                      'block';
-                    document.querySelector('#start').style.display = 'none';
+                    setTimeout(function() {
+                      document.querySelector('#home-gallery').style.display =
+                        'block';
+                      document.querySelector('#start').style.display = 'none';
+                    }, 10);
                   }}
                 >
                   <li>Home</li>
                 </Link>
 
-                <Link to="/games">
+                <Link
+                  to="/games"
+                  onClick={() => {
+                    setTimeout(function() {
+                      document.querySelector(
+                        '#AboutUsCoverImage'
+                      ).style.display =
+                        'block';
+                      document.querySelector('#startGames').style.display =
+                        'none';
+                    }, 10);
+                  }}
+                >
                   <li>Games</li>
                 </Link>
 

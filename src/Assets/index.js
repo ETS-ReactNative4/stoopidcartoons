@@ -630,6 +630,15 @@ const AllGames = [
   babyPhoneCoverSmall
 ];
 
+const LatestGames = [
+  zeroDeaths,
+  naymarChallenge,
+  bigBen,
+  zigZagSky,
+  cowboyDuel,
+  bankEscape
+];
+
 const share = [shareIcon, shareIcon1];
 /*
 **************************
@@ -657,6 +666,7 @@ export { googlePlay };
 export { share };
 
 export { arrayForMap };
+export { LatestGames };
 
 /*
 **************************
