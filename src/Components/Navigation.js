@@ -109,7 +109,7 @@ class Navigation extends Component {
           </div>
         </nav>
 
-        <div id="socialMediaIconsNavigation">
+        <div id="socialMediaImageNavigation">
           <a
             href="https://www.facebook.com/StoopidCartoons/?fref=ts"
             target="_blank"

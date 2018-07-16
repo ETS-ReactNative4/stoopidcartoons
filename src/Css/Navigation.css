@@ -161,3 +161,33 @@ ul {
     transform: scale(0.7);
   }
 }
+
+.ocialMediaIconsNavigation {
+  display: none;
+}
+#socialMediaImageNavigation {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  #socialMediaImageNavigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 50px;
+  }
+
+  .socialMediaIconsNavigation {
+    display: inline-block;
+    margin: 3px;
+  }
+
+  .socialMediaIconsNavigation:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.19) rotate(360deg);
+  }
+
+  .socialMediaIconsNavigation:active {
+    transform: scale(0.95);
+  }
+}
