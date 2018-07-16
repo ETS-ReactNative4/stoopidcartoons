@@ -84,7 +84,10 @@ class Home extends Component {
               <strong>PUBLISHER:</strong>
               St00pid Cart00ns <br />
               <strong>GAMEPLAY VIDEO:</strong>
-              {this.state.data[7]} <br />
+              <a href={this.state.data[7]} target="_blank">
+                YouTube
+              </a>
+              <br />
               <h3>
                 <strong>OVERVIEW</strong>
               </h3>
@@ -96,8 +99,9 @@ class Home extends Component {
                   marginTop: '5%'
                 }}
               >
-                {this.state.data[9]}
-                <img src={googlePlay} alt="Download now from GooglePlay" />
+                <a href={this.state.data[9]} target="_blank">
+                  <img src={googlePlay} alt="Download now from GooglePlay" />
+                </a>
               </div>
               {/* Share it div */}
               <div
