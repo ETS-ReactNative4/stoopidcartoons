@@ -70,10 +70,31 @@ class Navigation extends Component {
 
             <div className="narrowLinks">
               <ul>
-                <Link to="/">
+                <Link
+                  to="/"
+                  onClick={() => {
+                    setTimeout(function() {
+                      document.querySelector('#home-gallery').style.display =
+                        'block';
+                      document.querySelector('#start').style.display = 'none';
+                    }, 10);
+                  }}
+                >
                   <li onClick={burgerToggle}>HOME</li>
                 </Link>
-                <Link to="/games">
+                <Link
+                  to="/games"
+                  onClick={() => {
+                    setTimeout(function() {
+                      document.querySelector(
+                        '#AboutUsCoverImage'
+                      ).style.display =
+                        'block';
+                      document.querySelector('#startGames').style.display =
+                        'none';
+                    }, 10);
+                  }}
+                >
                   <li onClick={burgerToggle}>GAMES</li>
                 </Link>
                 <Link to="/aboutus">
