@@ -10,12 +10,17 @@
 a {
   text-decoration: none;
   color: #af1f1f;
-  margin: 0 3%;
+}
+
+a:hover {
+  text-decoration: underline;
+
+  color: rgb(255, 255, 255);
 }
 
 nav {
   overflow: hidden;
-  /* border-bottom: 1px solid #473016; */
+
   border-radius: 10px;
 }
 nav li {
@@ -25,7 +30,6 @@ nav li {
 }
 
 nav li:hover {
-  background-color: #af1f1f;
   color: #fff;
   cursor: pointer;
 }
@@ -33,6 +37,7 @@ nav li:hover {
 nav li:visited {
   color: #af1f1f;
 }
+
 nav .navWide {
   display: none;
   margin: 0 auto;
@@ -46,9 +51,6 @@ nav .navWide .wideDiv li {
   padding: 15px 15px;
 }
 nav .navNarrow img {
-  /* float: right; */
-  /* margin-bottom: 30px; */
-  /* margin-right: 75%; */
   width: 70px;
   height: 70px;
   cursor: pointer;
@@ -71,10 +73,11 @@ nav .navNarrow .narrowLinks li {
 
 ul {
   padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #socialMediaIconsNavigation {
-  /* float: right; */
   margin-top: 25px;
 }
 #navigationBorder {
@@ -90,6 +93,11 @@ ul {
     font-size: 18px;
     padding: 13px 10px;
   }
+  ul {
+    display: block;
+    padding: 0;
+    /* width: 0 3%; */
+  }
 }
 
 @media (min-width: 991px) {
@@ -102,6 +110,11 @@ ul {
   #socialMediaIconsNavigation {
     display: none;
   }
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 @media (max-width: 990px) {
@@ -113,5 +126,35 @@ ul {
   }
   nav li {
     font-size: 15px;
+  }
+}
+
+.pulsingLogo {
+  animation: pulse 3s infinite;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.7);
   }
 }

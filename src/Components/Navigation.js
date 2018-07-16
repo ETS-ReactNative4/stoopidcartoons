@@ -23,6 +23,7 @@ class Navigation extends Component {
             <div className="wideDiv">
               <ul>
                 <Link
+                  id="teststyle"
                   to="/"
                   onClick={() => {
                     setTimeout(() => {
@@ -64,7 +65,7 @@ class Navigation extends Component {
             <img
               src={LogoImage}
               alt="logo"
-              className="fa fa-bars fa-2x"
+              className="pulsingLogo"
               onClick={burgerToggle}
             />
 
