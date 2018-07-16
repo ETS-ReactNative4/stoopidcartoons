@@ -83,6 +83,12 @@ ul {
 
 .socialMediaImagesNavigation {
   margin: 0 5px;
+
+}
+
+.socialMediaImagesNavigation:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.19) rotate(360deg);
 }
 
 @media (max-width: 1180px) {
