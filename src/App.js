@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from '../src/Components/Header';
-// import Particles from 'react-particles-js';
 import Home from './Screens/Home';
 import AboutUs from './Screens/AboutUs';
 import ContactUs from './Screens/ContactUs';

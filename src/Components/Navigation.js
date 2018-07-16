@@ -23,6 +23,7 @@ class Navigation extends Component {
             <div className="wideDiv">
               <ul>
                 <Link
+                  id="teststyle"
                   to="/"
                   onClick={() => {
                     setTimeout(function() {
