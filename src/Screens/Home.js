@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import ImageGallery from 'react-image-gallery';
-import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
-import '../Css/Home.css';
+import React, { Component } from "react";
+import ImageGallery from "react-image-gallery";
+import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+import "../Css/Home.css";
 
-import HomeGallery from '../Components/HomeGallery';
-// import { Link } from 'react-router-dom';
+import HomeGallery from "../Components/HomeGallery";
+import { Link } from "react-router-dom";
 
-import { LatestGames, googlePlay } from '../Assets/index';
+import { LatestGames, googlePlay } from "../Assets/index";
 
 class Home extends Component {
   state = {
@@ -56,13 +56,13 @@ class Home extends Component {
         <div
           id="start"
           style={{
-            display: 'none'
+            display: "none"
           }}
         >
           {/* BigImageCoverDiv */}
           <div className="big-cover-image">
             <img
-              style={{ width: '100%', borderRadius: '15px' }}
+              style={{ width: "100%", borderRadius: "15px" }}
               src={this.state.data[1]}
               alt=" "
             />
@@ -70,14 +70,14 @@ class Home extends Component {
 
           <div
             style={{
-              display: 'flex'
+              display: "flex"
             }}
           >
             {/* Text div */}
             <div
               style={{
-                width: '50%',
-                height: 'auto'
+                width: "50%",
+                height: "auto"
               }}
             >
               <strong>CATEGORY:</strong>
@@ -97,7 +97,7 @@ class Home extends Component {
               {/* DownloadLinksDiv */}
               <div
                 style={{
-                  marginTop: '5%'
+                  marginTop: "5%"
                 }}
               >
                 <a href={this.state.data[9]} target="_blank">
@@ -107,7 +107,7 @@ class Home extends Component {
               {/* Share it div */}
               <div
                 style={{
-                  marginTop: '5%'
+                  marginTop: "5%"
                 }}
               >
                 Shate It
@@ -117,9 +117,9 @@ class Home extends Component {
             {/* Small Gallery Div */}
             <div
               style={{
-                width: '50%',
-                height: '50%',
-                overflow: 'hidden'
+                width: "50%",
+                height: "50%",
+                overflow: "hidden"
               }}
             >
               <ImageGallery
@@ -142,36 +142,35 @@ class Home extends Component {
         {/* END!!! */}
         <div
           style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            margin: '0 3%'
+            display: "flex",
+            justifyContent: "space-between",
+            margin: "0 3%"
           }}
         >
           <h3>
             <strong>Latest Games</strong>
           </h3>
-          <h3>
-            <span>
-              <strong>
-                {/* <Link to="/games" style={{ width: '150px' }}> */}
-                All Games
-                {/* </Link> */}
-              </strong>
-            </span>
-          </h3>
+          <Link to="/games" onClick={() => window.scroll(0, 0)}>
+            <h3>
+              <span>
+                <strong>All Games</strong>
+              </span>
+            </h3>
+          </Link>
         </div>
         {LatestGames.map(i => {
           return (
             <img
               className="latest-games"
               src={i[0]}
+              key={i}
               onClick={() => {
-                document.querySelector('#home-gallery').style.display = 'none';
-                document.querySelector('#start').style.display = 'block';
+                document.querySelector("#home-gallery").style.display = "none";
+                document.querySelector("#start").style.display = "block";
                 this.setState({ data: i });
                 window.scroll(0, 0);
               }}
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: "pointer" }}
               alt=""
             />
           );

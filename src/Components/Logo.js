@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Logo = () => {
   return (
-    <NavLink to="/" onClick={() => this.reload()}>
+    <NavLink to="/">
       <img id="logo" src={LogoImage} alt="Logo" />
     </NavLink>
   );
