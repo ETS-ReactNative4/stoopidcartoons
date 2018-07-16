@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import "../Css/Navigation.css";
-import { Link } from "react-router-dom";
-import { LogoImage } from "../Assets/index";
+import React, { Component } from 'react';
+import '../Css/Navigation.css';
+import { Link } from 'react-router-dom';
+import { LogoImage } from '../Assets/index';
 
-import { SocialMediaIcons } from "../Assets/index";
+import { SocialMediaIcons } from '../Assets/index';
 
 const burgerToggle = () => {
-  let linksEl = document.querySelector(".narrowLinks");
-  if (linksEl.style.display === "block") {
-    linksEl.style.display = "none";
+  let linksEl = document.querySelector('.narrowLinks');
+  if (linksEl.style.display === 'block') {
+    linksEl.style.display = 'none';
   } else {
-    linksEl.style.display = "block";
+    linksEl.style.display = 'block';
   }
 };
 
@@ -27,9 +27,9 @@ class Navigation extends Component {
                   to="/"
                   onClick={() => {
                     setTimeout(() => {
-                      document.querySelector("#home-gallery").style.display =
-                        "block";
-                      document.querySelector("#start").style.display = "none";
+                      document.querySelector('#home-gallery').style.display =
+                        'block';
+                      document.querySelector('#start').style.display = 'none';
                     }, 10);
                   }}
                 >
@@ -41,11 +41,11 @@ class Navigation extends Component {
                   onClick={() => {
                     setTimeout(() => {
                       document.querySelector(
-                        "#AboutUsCoverImage"
+                        '#AboutUsCoverImage'
                       ).style.display =
-                        "block";
-                      document.querySelector("#startGames").style.display =
-                        "none";
+                        'block';
+                      document.querySelector('#startGames').style.display =
+                        'none';
                     }, 10);
                   }}
                 >
@@ -108,27 +108,67 @@ class Navigation extends Component {
             </div>
           </div>
         </nav>
+
         <div id="socialMediaIconsNavigation">
-          <img
-            className="socialMediaImagesNavigation"
-            src={SocialMediaIcons[0]}
-            alt="Facebook"
-          />
-          <img
-            className="socialMediaImagesNavigation"
-            src={SocialMediaIcons[1]}
-            alt="Youtube"
-          />
-          <img
-            className="socialMediaImagesNavigation"
-            src={SocialMediaIcons[2]}
-            alt="Twitter"
-          />
-          <img
-            className="socialMediaImagesNavigation"
-            src={SocialMediaIcons[3]}
-            alt="Instagram"
-          />
+          <a
+            href="https://www.facebook.com/StoopidCartoons/?fref=ts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="socialMediaIconsNavigation"
+              src={SocialMediaIcons[0]}
+              alt="Facebook"
+            />
+          </a>
+
+          <a
+            href="https://twitter.com/St00pidCart00ns"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="socialMediaIconsNavigation"
+              src={SocialMediaIcons[2]}
+              alt="Twitter"
+            />
+          </a>
+
+          <a
+            href="https://www.instagram.com/st00pid_cart00ns/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="socialMediaIconsNavigation"
+              src={SocialMediaIcons[3]}
+              alt="Instagram"
+            />
+          </a>
+
+          <a
+            href="https://www.youtube.com/channel/UCU-228KOXPG3jMgffbNV1Gg?view_as=subscriber"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="socialMediaIconsNavigation"
+              src={SocialMediaIcons[1]}
+              alt="Youtube"
+            />
+          </a>
+
+          <a
+            href="https://play.google.com/store/apps/dev?id=9103063599459576814"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="socialMediaIconsNavigation"
+              src={SocialMediaIcons[4]}
+              alt="Google Play"
+            />
+          </a>
         </div>
       </div>
     );
