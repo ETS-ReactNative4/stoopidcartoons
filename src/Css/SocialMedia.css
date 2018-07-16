@@ -11,7 +11,8 @@
 }
 
 .socialMediaImages:hover {
-  transform: scale(1.19);
+  transition-duration: 0.5s;
+  transform: scale(1.19) rotate(360deg);
 }
 
 .socialMediaImages:active {

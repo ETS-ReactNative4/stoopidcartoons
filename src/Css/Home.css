@@ -6,7 +6,8 @@
 }
 
 .latest-games:hover {
-  transform: scale(1.05);
+  transform: scale(1.1) rotate(360deg);
+  transition-duration: 0.7s;
 }
 
 .share-icons {
@@ -15,7 +16,8 @@
 }
 
 .share-icons:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) rotate(360deg);
+  transition-duration: 0.7s;
 }
 
 .share-icons:active {
