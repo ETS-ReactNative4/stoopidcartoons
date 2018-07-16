@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import ImageGallery from 'react-image-gallery';
-import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
-import '../Css/Home.css';
+import React, { Component } from "react";
+import ImageGallery from "react-image-gallery";
+import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+import "../Css/Home.css";
 
-import AboutUsCoverImage from '../Components/AboutUsCoverImage';
+import AboutUsCoverImage from "../Components/AboutUsCoverImage";
 
-import { arrayForMap, googlePlay } from '../Assets/index';
+import { arrayForMap, googlePlay } from "../Assets/index";
 
 class Home extends Component {
   state = {
@@ -55,13 +55,13 @@ class Home extends Component {
         <div
           id="startGames"
           style={{
-            display: 'none'
+            display: "none"
           }}
         >
           {/* BigImageCoverDiv */}
           <div className="big-cover-image">
             <img
-              style={{ width: '100%', borderRadius: '15px' }}
+              style={{ width: "100%", borderRadius: "15px" }}
               src={this.state.data[1]}
               alt=" "
             />
@@ -69,14 +69,14 @@ class Home extends Component {
 
           <div
             style={{
-              display: 'flex'
+              display: "flex"
             }}
           >
             {/* Text div */}
             <div
               style={{
-                width: '50%',
-                height: 'auto'
+                width: "50%",
+                height: "auto"
               }}
             >
               <strong>CATEGORY:</strong>
@@ -96,7 +96,7 @@ class Home extends Component {
               {/* DownloadLinksDiv */}
               <div
                 style={{
-                  marginTop: '5%'
+                  marginTop: "5%"
                 }}
               >
                 <a href={this.state.data[9]} target="_blank">
@@ -106,7 +106,7 @@ class Home extends Component {
               {/* Share it div */}
               <div
                 style={{
-                  marginTop: '5%'
+                  marginTop: "5%"
                 }}
               >
                 Shate It
@@ -116,9 +116,9 @@ class Home extends Component {
             {/* Small Gallery Div */}
             <div
               style={{
-                width: '50%',
-                height: '50%',
-                overflow: 'hidden'
+                width: "50%",
+                height: "50%",
+                overflow: "hidden"
               }}
             >
               <ImageGallery
@@ -150,14 +150,15 @@ class Home extends Component {
             <img
               className="latest-games"
               src={i[0]}
+              key={i}
               onClick={() => {
-                document.querySelector('#AboutUsCoverImage').style.display =
-                  'none';
-                document.querySelector('#startGames').style.display = 'block';
+                document.querySelector("#AboutUsCoverImage").style.display =
+                  "none";
+                document.querySelector("#startGames").style.display = "block";
                 this.setState({ data: i });
                 window.scroll(0, 0);
               }}
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: "pointer" }}
               alt=""
             />
           );
