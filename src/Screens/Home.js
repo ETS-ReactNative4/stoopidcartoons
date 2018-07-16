@@ -4,6 +4,7 @@ import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
 import '../Css/Home.css';
 
 import HomeGallery from '../Components/HomeGallery';
+// import { Link } from 'react-router-dom';
 
 import { LatestGames, googlePlay } from '../Assets/index';
 
@@ -133,15 +134,29 @@ class Home extends Component {
           </div>
 
           {/* all other games div */}
-          <div>
-            <h2>
-              <strong>OtherGames</strong>
-            </h2>
-          </div>
         </div>
 
         {/* END!!! */}
-
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            margin: '0 3%'
+          }}
+        >
+          <h3>
+            <strong>Latest Games</strong>
+          </h3>
+          <h3>
+            <span>
+              <strong>
+                {/* <Link to="/games" style={{ width: '150px' }}> */}
+                All Games
+                {/* </Link> */}
+              </strong>
+            </span>
+          </h3>
+        </div>
         {LatestGames.map(i => {
           return (
             <img

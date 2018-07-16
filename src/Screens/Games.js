@@ -114,8 +114,7 @@ class Home extends Component {
               style={{
                 width: '50%',
                 height: '50%',
-                overflow: 'hidden',
-                borderRadius: '30px'
+                overflow: 'hidden'
               }}
             >
               <ImageGallery
@@ -135,7 +134,7 @@ class Home extends Component {
           {/* all other games div */}
           <div>
             <h2>
-              <strong>OtherGames</strong>
+              <strong>Other Games</strong>
             </h2>
           </div>
         </div>
