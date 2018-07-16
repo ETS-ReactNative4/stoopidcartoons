@@ -124,12 +124,15 @@ class Home extends Component {
                   }}
                 >
                   <FacebookShareButton
+                    quote="Check Out This Amazing Game"
                     className="share-icons"
                     url={this.state.data[9]}
                   >
                     <FacebookIcon className="share-icons" size={25} round />
                   </FacebookShareButton>
                   <TwitterShareButton
+                    title="Check Out This Amazing Game"
+                    via="www.stoopidcartoons.com"
                     className="share-icons"
                     url={this.state.data[9]}
                   >
@@ -142,24 +145,29 @@ class Home extends Component {
                     <GooglePlusIcon className="share-icons" size={25} round />
                   </GooglePlusShareButton>
                   <RedditShareButton
+                    title="Check Out This Amazing Game"
                     className="share-icons"
                     url={this.state.data[9]}
                   >
                     <RedditIcon className="share-icons" size={25} round />
                   </RedditShareButton>
                   <LinkedinShareButton
+                    title="Check Out This Amazing Game"
+                    description="Another Amazing Game From the Developers at www.stoopidcartoons.com"
                     className="share-icons"
                     url={this.state.data[9]}
                   >
                     <LinkedinIcon className="share-icons" size={25} round />
                   </LinkedinShareButton>
                   <WhatsappShareButton
+                    title="Check Out This Amazing Game"
                     className="share-icons"
                     url={this.state.data[9]}
                   >
                     <WhatsappIcon className="share-icons" size={25} round />
                   </WhatsappShareButton>
                   <ViberShareButton
+                    title="Check Out This Amazing Game"
                     className="share-icons"
                     url={this.state.data[9]}
                   >
