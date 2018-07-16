@@ -4,14 +4,12 @@ import Logo from "./Logo";
 import Navigation from "./Navigation";
 import SocialMedia from "./SocialMedia";
 
-
 const Header = () => {
   return (
-    <div>
+    <div style={{ paddingTop: "10px" }}>
       <Logo />
       <SocialMedia />
       <Navigation />
-
     </div>
   );
 };
