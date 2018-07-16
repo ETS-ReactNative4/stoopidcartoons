@@ -1,0 +1,33 @@
+.latest-games {
+  width: 31.3%;
+  height: auto;
+  border-radius: 15px;
+  margin: 1%;
+}
+
+.latest-games:hover {
+  transform: scale(1.05);
+}
+
+.latest-games:active {
+  transform: scale(0.95);
+}
+
+.share-icons {
+  display: block;
+  margin: 0 1px;
+}
+
+.share-icons:hover {
+  cursor: pointer;
+  transform: scale(1.05) rotate(360deg);
+  transition-duration: 0.7s;
+}
+
+.share-icons:active {
+  transform: scale(0.95);
+}
+
+svg {
+  margin: 0 3px;
+}

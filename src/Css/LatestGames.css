@@ -1,0 +1,19 @@
+.latest-games {
+  width: 31%;
+  height: auto;
+  border-radius: 15px;
+  margin: 1%;
+}
+
+.latest-games-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 1% 0 1%;
+  font-size: 20px;
+}
+
+.latest-games-span {
+  color: white;
+  display: inline-block;
+  justify-content: space-between;
+}
