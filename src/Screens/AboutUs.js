@@ -1,6 +1,9 @@
 import React from 'react';
 import AboutUsCoverImage from '../Components/AboutUsCoverImage';
 
+import { SocialMediaIcons } from '../Assets/index';
+import '../Css/ContactUs.css';
+
 const AboutUs = () => {
   return (
     <div
@@ -10,34 +13,90 @@ const AboutUs = () => {
     >
       <AboutUsCoverImage />
       <div>
-        <h1>I'm serious as a heart attack</h1>
+        <h1>Who Are We</h1>
+        <p>Small team of developers who make games out of hobby</p>
+
+        <h1>Overview</h1>
         <p>
-          Now that there is the Tec-9, a crappy spray gun from South Miami. This
-          gun is advertised as the most popular gun in American crime. Do you
-          believe that shit? It actually says that in the little book that comes
-          with it: the most popular gun in American crime. Like they're actually
-          proud of that shit.{' '}
+          <p>
+            Founded in 2017, St00pid Cart00ns is a small independent team of
+            developers who enjoy making casual games in their free time.
+          </p>
+          <p>
+            Our main focus are games for Android devices. So far we have
+            published almost 20 games.
+          </p>
+          <p>
+            Our goal is to make games that people will enjoy and have some fun
+            in the process of making them
+          </p>
         </p>
 
-        <h1>Hold on to your butts</h1>
-        <p>
-          Well, the way they make shows is, they make one show. That show's
-          called a pilot. Then they show that show to the people who make shows,
-          and on the strength of that one show they decide if they're going to
-          make more shows. Some pilots get picked and become television
-          programs. Some don't, become nothing. She starred in one of the ones
-          that became nothing.{' '}
-        </p>
+        <h1>FOLLOW US ON:</h1>
 
-        <h1>I gotta piss</h1>
-        <p>
-          Normally, both your asses would be dead as fucking fried chicken, but
-          you happen to pull this shit while I'm in a transitional period so I
-          don't wanna kill you, I wanna help you. But I can't give you this
-          case, it don't belong to me. Besides, I've already been through too
-          much shit this morning over this case to hand it over to your dumb
-          ass.{' '}
-        </p>
+        <div>
+          <div id="socialMediaContactUsIcons">
+            <a
+              href="https://www.facebook.com/StoopidCartoons/?fref=ts"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[0]}
+                alt="Facebook"
+              />
+            </a>
+
+            <a
+              href="https://twitter.com/St00pidCart00ns"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[2]}
+                alt="Twitter"
+              />
+            </a>
+
+            <a
+              href="https://www.instagram.com/st00pid_cart00ns/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[3]}
+                alt="Instagram"
+              />
+            </a>
+
+            <a
+              href="https://www.youtube.com/channel/UCU-228KOXPG3jMgffbNV1Gg?view_as=subscriber"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[1]}
+                alt="Youtube"
+              />
+            </a>
+
+            <a
+              href="https://play.google.com/store/apps/dev?id=9103063599459576814"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[4]}
+                alt="Google Play"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
