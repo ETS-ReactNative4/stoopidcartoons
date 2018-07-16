@@ -6,7 +6,11 @@
 }
 
 .latest-games:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.latest-games:active {
+  transform: scale(0.95);
 }
 
 .share-icons {
