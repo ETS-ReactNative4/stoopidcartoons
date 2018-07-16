@@ -18,15 +18,15 @@ const PrivacyPolicy = () => {
         </p>
         <p>
           This Privacy Policy explains how and why information about you is
-          collected, used and disclosed by St00pid Cart00ns Productions Ltd (“St00pid Cart00ns”)
-          when you use our mobile applications and other online products and
-          services (collectively, the “Services”).
+          collected, used and disclosed by St00pid Cart00ns Productions Ltd
+          (“St00pid Cart00ns”) when you use our mobile applications and other
+          online products and services (collectively, the “Services”).
         </p>
         <p>
-          By accepting our Privacy Policy, you agree to let St00pid Cart00ns collect,
-          use and disclose information about you in accordance with only the
-          purposes listed below. Collection, use and disclosure of information
-          collected and this privacy policy are governed by UK law.
+          By accepting our Privacy Policy, you agree to let St00pid Cart00ns
+          collect, use and disclose information about you in accordance with
+          only the purposes listed below. Collection, use and disclosure of
+          information collected and this privacy policy are governed by UK law.
         </p>
         <p>
           We may change this Privacy Policy. If we make changes, we will notify
@@ -64,27 +64,27 @@ const PrivacyPolicy = () => {
           also use this data for Marketing and Advertising reasons. The data
           collected includes:
         </p>
-        <ul>
-          <li>
-            <strong>Device Information: </strong>We collect information about
-            the device you use to access our Services, including information
-            about the device’s software and hardware, Media Access Control
-            (“MAC”) address and other unique device identifiers, device token,
-            mobile network information and time zone.
-          </li>
-          <li>
-            <strong>Usage Information:</strong> We collect information relating
-            to your use of our Services, including which applications you use
-            and your game progress, scores, achievements and interactions with
-            other players.
-          </li>
-          <li>
-            <strong>Consumption information:</strong> We collect information
-            about your consumption habits relating to your use of our Services,
-            including which purchases you make with both virtual and real
-            currencies.
-          </li>
-        </ul>
+
+        <p>
+          <strong>Device Information: </strong>We collect information about the
+          device you use to access our Services, including information about the
+          device’s software and hardware, Media Access Control (“MAC”) address
+          and other unique device identifiers, device token, mobile network
+          information and time zone.
+        </p>
+        <p>
+          <strong>Usage Information:</strong> We collect information relating to
+          your use of our Services, including which applications you use and
+          your game progress, scores, achievements and interactions with other
+          players.
+        </p>
+        <p>
+          <strong>Consumption information:</strong> We collect information about
+          your consumption habits relating to your use of our Services,
+          including which purchases you make with both virtual and real
+          currencies.
+        </p>
+
         <p>
           <strong>Information We Collect From Other Sources</strong>
         </p>
@@ -108,46 +108,46 @@ const PrivacyPolicy = () => {
         <p>
           We may use information about you for various purposes, including to:
         </p>
-        <ul>
-          <li>Provide, maintain and improve our current Services.</li>
-          <li>
-            Provide and deliver the products and services you request and send
-            you related information.
-          </li>
-          <li>Facilitate communications between players.</li>
-          <li>
-            Respond to your comments, questions and requests and provide
-            customer service and support.
-          </li>
-          <li>
-            Send you technical notices, updates, security alerts and support and
-            administrative messages.
-          </li>
-          <li>
-            Communicate with you about products, services, offers, promotions
-            and events offered by St00pid Cart00ns only.
-          </li>
-          <li>
-            Personalize and improve our Services and provide tailored
-            advertisements, content or features.
-          </li>
-          <li>Process and deliver contest entries and rewards.</li>
-          <li>
-            Monitor and analyse trends, usage and activities in connection with
-            our Services.
-          </li>
-          <li>
-            Link or combine with information we get from others to help
-            understand your needs and provide you with better service.
-          </li>
-          <li>
-            Carry out any other purpose for which the information was collected.
-          </li>
-        </ul>
+
+        <p>Provide, maintain and improve our current Services.</p>
+        <p>
+          Provide and deliver the products and services you request and send you
+          related information.
+        </p>
+        <p>Facilitate communications between players.</p>
+        <p>
+          Respond to your comments, questions and requests and provide customer
+          service and support.
+        </p>
+        <p>
+          Send you technical notices, updates, security alerts and support and
+          administrative messages.
+        </p>
+        <p>
+          Communicate with you about products, services, offers, promotions and
+          events offered by St00pid Cart00ns only.
+        </p>
+        <p>
+          Personalize and improve our Services and provide tailored
+          advertisements, content or features.
+        </p>
+        <p>Process and deliver contest entries and rewards.</p>
+        <p>
+          Monitor and analyse trends, usage and activities in connection with
+          our Services.
+        </p>
+        <p>
+          Link or combine with information we get from others to help understand
+          your needs and provide you with better service.
+        </p>
+        <p>
+          Carry out any other purpose for which the information was collected.
+        </p>
+
         <p>
           By accepting our Privacy Policy or otherwise providing information to
           us, you consent to the processing and transfer of information in and
-          to the UK and other countries.
+          to the EU and other countries.
         </p>
         <p>
           <strong>
@@ -158,22 +158,22 @@ const PrivacyPolicy = () => {
           We may share information about you as follows or as otherwise
           described in this Privacy Policy:
         </p>
-        <ul>
-          <li>
-            With other players (for example, in connection with leader boards
-            and requests to join multi-player games).
-          </li>
-          <li>
-            In response to a request for information if we believe disclosure is
-            in accordance with any applicable law, regulation or legal process.
-          </li>
-          <li>
-            If we believe your actions are inconsistent with the spirit or
-            language of our user agreements or policies, or to protect the
-            rights, property and safety of St00pid Cart00ns or others.
-          </li>
-          <li>With your consent or at your specific allowance.</li>
-        </ul>
+
+        <p>
+          With other players (for example, in connection with leader boards and
+          requests to join multi-player games).
+        </p>
+        <p>
+          In response to a request for information if we believe disclosure is
+          in accordance with any applicable law, regulation or legal process.
+        </p>
+        <p>
+          If we believe your actions are inconsistent with the spirit or
+          language of our user agreements or policies, or to protect the rights,
+          property and safety of St00pid Cart00ns or others.
+        </p>
+        <p>With your consent or at your specific allowance.</p>
+
         <p>
           We also may share aggregated information or non-personal information,
           which cannot reasonably be used to identify you.
@@ -207,9 +207,9 @@ const PrivacyPolicy = () => {
           information about your use of our Services, including your IP address,
           MAC address, device identifiers, software and hardware information,
           browser information, time zone and usage information. This information
-          may be used by St00pid Cart00ns and others to, among other things, analyse and
-          track data, determine the popularity of certain content, deliver
-          advertising and content targeted to your interests and better
+          may be used by St00pid Cart00ns and others to, among other things,
+          analyse and track data, determine the popularity of certain content,
+          deliver advertising and content targeted to your interests and better
           understand your activity on our Services.
         </p>
         <p>
@@ -234,9 +234,9 @@ const PrivacyPolicy = () => {
           </strong>
         </p>
         <p>
-          St00pid Cart00ns takes reasonable measures to help protect information about
-          you from loss, theft, misuse and unauthorised access, disclosure,
-          alteration and destruction.
+          St00pid Cart00ns takes reasonable measures to help protect information
+          about you from loss, theft, misuse and unauthorised access,
+          disclosure, alteration and destruction.
         </p>
         <p>
           <strong>
@@ -244,11 +244,11 @@ const PrivacyPolicy = () => {
           </strong>
         </p>
         <p>
-          St00pid Cart00ns games and Services are not aimed at Children, and we do not
-          knowingly collect, and do not wish to collect, information regarding
-          children using our games or Services. The game age restriction is set
-          in the relevant store. Please do not play our games if you are under
-          the relevant age.
+          St00pid Cart00ns games and Services are not aimed at Children, and we
+          do not knowingly collect, and do not wish to collect, information
+          regarding children using our games or Services. The game age
+          restriction is set in the relevant store. Please do not play our games
+          if you are under the relevant age.
         </p>
         <p>
           <strong>
@@ -268,8 +268,8 @@ const PrivacyPolicy = () => {
           <strong>Storage of Information</strong>
         </p>
         <p>
-          St00pid Cart00ns will store your information for as long as necessary in order
-          to provide you with our Services.
+          St00pid Cart00ns will store your information for as long as necessary
+          in order to provide you with our Services.
         </p>
         <p>
           <strong>Contact Us</strong>

@@ -12,6 +12,7 @@ const SocialMedia = () => {
       <a
         href="https://www.facebook.com/StoopidCartoons/?fref=ts"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           className="socialMediaImages"
@@ -20,7 +21,11 @@ const SocialMedia = () => {
         />
       </a>
 
-      <a href="https://twitter.com/St00pidCart00ns" target="_blank">
+      <a
+        href="https://twitter.com/St00pidCart00ns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="socialMediaImages"
           src={SocialMediaIcons[2]}
@@ -28,7 +33,11 @@ const SocialMedia = () => {
         />
       </a>
 
-      <a href="https://www.instagram.com/st00pid_cart00ns/" target="_blank">
+      <a
+        href="https://www.instagram.com/st00pid_cart00ns/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="socialMediaImages"
           src={SocialMediaIcons[3]}
@@ -39,6 +48,7 @@ const SocialMedia = () => {
       <a
         href="https://www.youtube.com/channel/UCU-228KOXPG3jMgffbNV1Gg?view_as=subscriber"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           className="socialMediaImages"
@@ -50,6 +60,7 @@ const SocialMedia = () => {
       <a
         href="https://play.google.com/store/apps/dev?id=9103063599459576814"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           className="socialMediaImages"
