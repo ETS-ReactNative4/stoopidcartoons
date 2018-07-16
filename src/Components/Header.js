@@ -6,7 +6,7 @@ import SocialMedia from "./SocialMedia";
 
 const Header = () => {
   return (
-    <div style={{ paddingTop: "10px" }}>
+    <div >
       <Logo />
       <SocialMedia />
       <Navigation />
