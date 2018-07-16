@@ -9,26 +9,54 @@ import '../Css/SocialMedia.css';
 const SocialMedia = () => {
   return (
     <div id="socialMediaIcons">
-      <img
-        className="socialMediaImages"
-        src={SocialMediaIcons[0]}
-        alt="Facebook"
-      />
-      <img
-        className="socialMediaImages"
-        src={SocialMediaIcons[1]}
-        alt="Youtube"
-      />
-      <img
-        className="socialMediaImages"
-        src={SocialMediaIcons[2]}
-        alt="Twitter"
-      />
-      <img
-        className="socialMediaImages"
-        src={SocialMediaIcons[3]}
-        alt="Instagram"
-      />
+      <a
+        href="https://www.facebook.com/StoopidCartoons/?fref=ts"
+        target="_blank"
+      >
+        <img
+          className="socialMediaImages"
+          src={SocialMediaIcons[0]}
+          alt="Facebook"
+        />
+      </a>
+
+      <a href="https://twitter.com/St00pidCart00ns" target="_blank">
+        <img
+          className="socialMediaImages"
+          src={SocialMediaIcons[2]}
+          alt="Twitter"
+        />
+      </a>
+
+      <a href="https://www.instagram.com/st00pid_cart00ns/" target="_blank">
+        <img
+          className="socialMediaImages"
+          src={SocialMediaIcons[3]}
+          alt="Instagram"
+        />
+      </a>
+
+      <a
+        href="https://www.youtube.com/channel/UCU-228KOXPG3jMgffbNV1Gg?view_as=subscriber"
+        target="_blank"
+      >
+        <img
+          className="socialMediaImages"
+          src={SocialMediaIcons[1]}
+          alt="Youtube"
+        />
+      </a>
+
+      <a
+        href="https://play.google.com/store/apps/dev?id=9103063599459576814"
+        target="_blank"
+      >
+        <img
+          className="socialMediaImages"
+          src={SocialMediaIcons[4]}
+          alt="Google Play"
+        />
+      </a>
     </div>
   );
 };

@@ -9,6 +9,19 @@
   transform: scale(1.05);
 }
 
-.latest-games:active {
+.share-icons {
+  display: block;
+  margin: 0 1px;
+}
+
+.share-icons:hover {
+  transform: scale(1.05);
+}
+
+.share-icons:active {
   transform: scale(0.95);
+}
+
+svg {
+  margin: 0 3px;
 }

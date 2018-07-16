@@ -28,6 +28,9 @@ class HomeGallery extends Component {
         original: GameCovers[0]
       },
       {
+        original: GameCovers[1]
+      },
+      {
         original: GameCovers[2]
       },
       {
@@ -53,9 +56,6 @@ class HomeGallery extends Component {
       },
       {
         original: GameCovers[10]
-      },
-      {
-        original: GameCovers[1]
       },
       {
         original: GameCovers[11]

@@ -1,5 +1,6 @@
 .big-cover-image {
-  margin: 5%;
+  margin-top: 10px;
   overflow: hidden;
   border-radius: 15px;
+  margin-bottom: 10px;
 }

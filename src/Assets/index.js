@@ -14,6 +14,7 @@ import shareIcon1 from './Icons/share1.png';
 import shareIcon from './Icons/share.png';
 import twitter from './Icons/twitter.png';
 import youtube from './Icons/youtube.png';
+import googleplayicon from './Icons/googleplayicon.png';
 
 import logo from './logo.png';
 import googlePlay from './Icons/googleplay.png';
@@ -572,27 +573,33 @@ const arrayForMap = [
 
 const GameCovers = [
   zeroDeathsCover,
-  gastarbajterCover,
   naymarChallengeCover,
-  bigBenCover,
-  theBirdsCover,
+  cowboyDuelCover,
   zigZagSkyCover,
+  bankEscapeCover,
+  babyPhoneCover,
+  kissTheBossCover,
+  theBirdsCover,
+  gastarbajterCover,
+  godVsStickmanCover,
+  bigBenCover,
+  eMojiMachineCover,
+  balkanRoadsCover,
+  doodleFidgetSpinnerCover,
+  fiveSecondsStressTestCover,
+  mindReaderCover,
   santaTheLostPresentsCover,
   podMac555Cover,
-  podMacBatoCover,
-  mindReaderCover,
-  kissTheBossCover,
-  godVsStickmanCover,
-  fiveSecondsStressTestCover,
-  eMojiMachineCover,
-  doodleFidgetSpinnerCover,
-  cowboyDuelCover,
-  bankEscapeCover,
-  balkanRoadsCover,
-  babyPhoneCover
+  podMacBatoCover
 ];
 
-const SocialMediaIcons = [facebook, youtube, twitter, instagram];
+const SocialMediaIcons = [
+  facebook,
+  youtube,
+  twitter,
+  instagram,
+  googleplayicon
+];
 
 const LatestGamesCovers = [
   zeroDeathsCoverSmall,
