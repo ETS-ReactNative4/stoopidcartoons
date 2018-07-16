@@ -65,7 +65,7 @@ class Navigation extends Component {
             <img
               src={LogoImage}
               alt="logo"
-              className="fa fa-bars fa-2x"
+              className="pulsingLogo"
               onClick={burgerToggle}
             />
 
