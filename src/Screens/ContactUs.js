@@ -1,5 +1,7 @@
 import React from 'react';
 import AboutUsCoverImage from '../Components/AboutUsCoverImage';
+import { SocialMediaIcons } from '../Assets/index';
+import '../Css/ContactUs.css';
 
 const ContactUs = () => {
   return (
@@ -16,27 +18,78 @@ const ContactUs = () => {
           then we want to hear from you!
         </p>
 
-        <h1>Is she dead, yes or no?</h1>
-        <p>
-          You think water moves fast? You should see ice. It moves like it has a
-          mind. Like it knows it killed the world once and got a taste for
-          murder. After the avalanche, it took us a week to climb out. Now, I
-          don't know exactly when we turned on each other, but I know that seven
-          of us survived the slide... and only five made it out. Now we took an
-          oath, that I'm breaking now. We said we'd say it was the snow that
-          killed the other two, but it wasn't. Nature is lethal but it doesn't
-          hold a candle to man.{' '}
-        </p>
+        <h4>Please email us at the following addresse:</h4>
 
-        <h1>Uuummmm, this is a tasty burger!</h1>
+        <strong>stoopidcartoons@gmail.com</strong>
+
+        <h1>FOLLOW US</h1>
         <p>
-          Your bones don't break, mine do. That's clear. Your cells react to
-          bacteria and viruses differently than mine. You don't get sick, I do.
-          That's also clear. But for some reason, you and I react the exact same
-          way to water. We swallow it too fast, we choke. We get some in our
-          lungs, we drown. However unreal it may seem, we are connected, you and
-          I. We're on the same curve, just on opposite ends.{' '}
+          Get more info about our games, latest news and share your opinion with
+          other people!
         </p>
+        <div>
+          <div id="socialMediaContactUsIcons">
+            <a
+              href="https://www.facebook.com/StoopidCartoons/?fref=ts"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[0]}
+                alt="Facebook"
+              />
+            </a>
+
+            <a
+              href="https://twitter.com/St00pidCart00ns"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[2]}
+                alt="Twitter"
+              />
+            </a>
+
+            <a
+              href="https://www.instagram.com/st00pid_cart00ns/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[3]}
+                alt="Instagram"
+              />
+            </a>
+
+            <a
+              href="https://www.youtube.com/channel/UCU-228KOXPG3jMgffbNV1Gg?view_as=subscriber"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[1]}
+                alt="Youtube"
+              />
+            </a>
+
+            <a
+              href="https://play.google.com/store/apps/dev?id=9103063599459576814"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="SocialMediaContactUs"
+                src={SocialMediaIcons[4]}
+                alt="Google Play"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
