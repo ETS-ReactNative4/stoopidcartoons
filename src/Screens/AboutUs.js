@@ -14,7 +14,7 @@ const AboutUs = () => {
       <AboutUsCoverImage />
       <div>
         <h1>Who Are We</h1>
-        <p>Small team of developers who make games out of hobby</p>
+        <p>Small team of developers who make games for fun.</p>
 
         <h1>Overview</h1>
         <p>

@@ -18,7 +18,7 @@ const ContactUs = () => {
           then we want to hear from you!
         </p>
 
-        <h4>Please email us at the following addresse:</h4>
+        <h4>Please email us at the following address:</h4>
 
         <strong>stoopidcartoons@gmail.com</strong>
 
