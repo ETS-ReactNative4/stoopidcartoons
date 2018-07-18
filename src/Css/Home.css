@@ -28,6 +28,37 @@
   transform: scale(0.95);
 }
 
+.small-gallery {
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
 svg {
   margin: 0 3px;
+}
+
+.description-text {
+  width: 50%;
+  height: auto;
+}
+
+.latest-games-wapper {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .latest-games {
+    width: 48%;
+  }
+  .small-gallery {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .description-text {
+    width: 100%;
+  }
+  .latest-games-wapper {
+    flex-direction: column-reverse;
+  }
 }

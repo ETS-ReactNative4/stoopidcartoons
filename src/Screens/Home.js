@@ -75,20 +75,23 @@ class Home extends Component {
           </div>
 
           <div
-            style={{
-              display: 'flex'
-            }}
+            className="latest-games-wapper"
+            // style={{
+            //   display: 'flex'
+            // }}
           >
             {/* Text div */}
             <div
-              style={{
-                width: '50%',
-                height: 'auto'
-              }}
+              className="description-text"
+              // style={{
+              //   width: '50%',
+              //   height: 'auto'
+              // }}
             >
               <strong>CATEGORY:</strong>
+              <br />
               {this.state.data[6]} <br />
-              <strong>PUBLISHER:</strong>
+              <strong>PUBLISHER:</strong> <br />
               St00pid Cart00ns <br />
               <strong>GAMEPLAY VIDEO:</strong>
               <a href={this.state.data[7]} target="_blank">
@@ -179,11 +182,12 @@ class Home extends Component {
 
             {/* Small Gallery Div */}
             <div
-              style={{
-                width: '50%',
-                height: '50%',
-                overflow: 'hidden'
-              }}
+              className="small-gallery"
+              // style={{
+              //   width: '50%',
+              //   height: 'auto',
+              //   overflow: 'hidden'
+              // }}
             >
               <ImageGallery
                 showThumbnails={false}

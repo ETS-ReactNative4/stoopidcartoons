@@ -128,7 +128,7 @@ ul {
     align-self: auto;
   }
   nav li {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -174,7 +174,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-top: 50px;
+    padding-top: 25px;
   }
 
   .socialMediaIconsNavigation {
