@@ -220,7 +220,7 @@ class Home extends Component {
           <Link to="/games" onClick={() => window.scroll(0, 0)}>
             <h3>
               <span>
-                <strong>All Games</strong>
+                <strong>ALL GAMES ></strong>
               </span>
             </h3>
           </Link>

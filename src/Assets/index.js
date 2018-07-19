@@ -267,7 +267,7 @@ const santaTheLostPresentsDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.santaslostpresents';
 const santaTheLostPresentsCategory = 'Action';
 
-const theBirdsYouTube = 'https://www.youtube.com/watch?v=WO7RQoXQ0yU&t=1s';
+const theBirdsYouTube = 'https://www.youtube.com/watch?v=EtYOTxJQcks';
 const theBirdsDescription =
   'Move wings and fly through 4 different stages. Help birds to flutter and get as far as possible. Tap the screen to flap your wings of a bird and avoid obstacles.';
 const theBirdsDownloadLink =
