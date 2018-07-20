@@ -36,7 +36,7 @@ const AboutUs = () => {
 
         <div>
           <div id="socialMediaContactUsIcons">
-            <a
+            <a style={{ padding: "0"}}
               href="https://www.facebook.com/StoopidCartoons/?fref=ts"
               target="_blank"
               rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const AboutUs = () => {
               />
             </a>
 
-            <a
+            <a style={{ padding: "0"}}
               href="https://twitter.com/St00pidCart00ns"
               target="_blank"
               rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const AboutUs = () => {
               />
             </a>
 
-            <a
+            <a style={{ padding: "0"}}
               href="https://www.instagram.com/st00pid_cart00ns/"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +72,7 @@ const AboutUs = () => {
               />
             </a>
 
-            <a
+            <a style={{ padding: "0"}}
               href="https://www.youtube.com/channel/UCU-228KOXPG3jMgffbNV1Gg?view_as=subscriber"
               target="_blank"
               rel="noopener noreferrer"
@@ -84,7 +84,7 @@ const AboutUs = () => {
               />
             </a>
 
-            <a
+            <a style={{ padding: "0"}}
               href="https://play.google.com/store/apps/dev?id=9103063599459576814"
               target="_blank"
               rel="noopener noreferrer"

@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import ImageGallery from 'react-image-gallery';
-import '../../node_modules/react-image-gallery/styles/css/image-gallery.css';
-import '../Css/Home.css';
+import React, { Component } from "react";
+import ImageGallery from "react-image-gallery";
+import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+import "../Css/Home.css";
 
-import AboutUsCoverImage from '../Components/AboutUsCoverImage';
+import AboutUsCoverImage from "../Components/AboutUsCoverImage";
 
-import { arrayForMap, googlePlay } from '../Assets/index';
+import { arrayForMap, googlePlay } from "../Assets/index";
 
 import {
   FacebookShareButton,
@@ -15,7 +15,7 @@ import {
   WhatsappShareButton,
   RedditShareButton,
   ViberShareButton
-} from 'react-share';
+} from "react-share";
 
 import {
   FacebookIcon,
@@ -25,9 +25,9 @@ import {
   WhatsappIcon,
   RedditIcon,
   ViberIcon
-} from 'react-share';
+} from "react-share";
 
-let test = 'www.stoopidcartoons.com';
+let test = "www.stoopidcartoons.com";
 
 class Home extends Component {
   state = {
@@ -61,13 +61,13 @@ class Home extends Component {
         <div
           id="startGames"
           style={{
-            display: 'none'
+            display: "none"
           }}
         >
           {/* BigImageCoverDiv */}
           <div className="big-cover-image">
             <img
-              style={{ width: '100%', borderRadius: '15px' }}
+              style={{ width: "100%", borderRadius: "15px" }}
               src={this.state.data[1]}
               alt=" "
             />
@@ -75,14 +75,14 @@ class Home extends Component {
 
           <div
             style={{
-              display: 'flex'
+              display: "flex"
             }}
           >
             {/* Text div */}
             <div
               style={{
-                width: '50%',
-                height: 'auto'
+                width: "50%",
+                height: "auto"
               }}
             >
               <strong>CATEGORY:</strong>
@@ -90,7 +90,11 @@ class Home extends Component {
               <strong>PUBLISHER:</strong>
               St00pid Cart00ns <br />
               <strong>GAMEPLAY VIDEO:</strong>
-              <a href={this.state.data[7]} target="_blank">
+              <a
+                style={{fontSize: "17px", padding: "5px" }}
+                href={this.state.data[7]}
+                target="_blank"
+              >
                 YouTube
               </a>
               <br />
@@ -102,24 +106,28 @@ class Home extends Component {
               {/* DownloadLinksDiv */}
               <div
                 style={{
-                  marginTop: '5%'
+                  marginTop: "5%"
                 }}
               >
-                <a href={this.state.data[9]} target="_blank">
+                <a
+                  style={{ padding: 0 }}
+                  href={this.state.data[9]}
+                  target="_blank"
+                >
                   <img src={googlePlay} alt="Download now from GooglePlay" />
                 </a>
               </div>
               {/* Share it div */}
               <div
                 style={{
-                  marginTop: '5%'
+                  marginTop: "5%"
                 }}
               >
                 <strong>Share It On:</strong>
                 <div
                   style={{
-                    display: 'flex',
-                    margin: '3px'
+                    display: "flex",
+                    margin: "3px"
                   }}
                 >
                   <FacebookShareButton
@@ -179,9 +187,9 @@ class Home extends Component {
             {/* Small Gallery Div */}
             <div
               style={{
-                width: '50%',
-                height: '50%',
-                overflow: 'hidden'
+                width: "50%",
+                height: "50%",
+                overflow: "hidden"
               }}
             >
               <ImageGallery
@@ -215,13 +223,13 @@ class Home extends Component {
               src={i[0]}
               key={i}
               onClick={() => {
-                document.querySelector('#AboutUsCoverImage').style.display =
-                  'none';
-                document.querySelector('#startGames').style.display = 'block';
+                document.querySelector("#AboutUsCoverImage").style.display =
+                  "none";
+                document.querySelector("#startGames").style.display = "block";
                 this.setState({ data: i });
                 window.scroll(0, 0);
               }}
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: "pointer" }}
               alt=""
             />
           );

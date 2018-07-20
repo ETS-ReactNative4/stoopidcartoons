@@ -213,7 +213,7 @@ class Home extends Component {
           <h3>
             <strong>Latest Games</strong>
           </h3>
-          <Link to="/games" onClick={() => window.scroll(0, 0)}>
+          <Link style={{padding: 0, fontSize: "16px"}}to="/games" onClick={() => window.scroll(0, 0)}>
             <h3>
               <span>
                 <strong>All Games</strong>
