@@ -7,7 +7,7 @@ const Footer = () => {
       style={{
         textAlign: "center",
         color: "white",
-        fontSize: "12px",
+        fontSize: "16px",
         padding: "20px 0"
       }}
     >
@@ -16,7 +16,7 @@ const Footer = () => {
       owners. <br />
       <NavLink
         to="/privacy"
-        style={{ fontSize: "12px" }}
+        style={{ fontSize: "16px" }}
         onClick={() => window.scrollTo(0, 0)}
       >
         <strong
