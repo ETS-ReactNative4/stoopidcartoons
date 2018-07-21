@@ -221,24 +221,39 @@ class Home extends Component {
 
         {/* END!!! */}
 
-        {arrayForMap.map(i => {
-          return (
-            <img
-              className="latest-games"
-              src={i[0]}
-              key={i}
-              onClick={() => {
-                document.querySelector('#AboutUsCoverImage').style.display =
-                  'none';
-                document.querySelector('#startGames').style.display = 'block';
-                this.setState({ data: i });
-                window.scroll(0, 0);
-              }}
-              style={{ cursor: 'pointer' }}
-              alt=""
-            />
-          );
-        })}
+        <div className="inline-block-div">
+          {arrayForMap.map(i => {
+            return (
+              <div className="picture-size-controller">
+                <img
+                  className="latest-games"
+                  src={i[0]}
+                  key={i}
+                  onClick={() => {
+                    document.querySelector('#home-gallery').style.display =
+                      'none';
+                    document.querySelector('#start').style.display = 'block';
+                    this.setState({ data: i });
+                    window.scroll(0, 0);
+                  }}
+                  alt=""
+                />
+                <div
+                  className="game-name-div"
+                  onClick={() => {
+                    document.querySelector('#home-gallery').style.display =
+                      'none';
+                    document.querySelector('#start').style.display = 'block';
+                    this.setState({ data: i });
+                    window.scroll(0, 0);
+                  }}
+                >
+                  {i[11]}
+                </div>
+              </div>
+            );
+          })}{' '}
+        </div>
       </div>
     );
   }

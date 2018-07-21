@@ -1,8 +1,28 @@
 .latest-games {
-  width: 31.3%;
+  width: 95%;
   height: auto;
   border-radius: 15px;
-  margin: 1%;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+.picture-size-controller {
+  width: 31.3%;
+  display: inline-block;
+}
+
+.game-name-div {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.game-name-div:hover {
+  transition-duration: 0.5s;
+  color: #af1f1f;
+}
+
+.inline-block-div {
+  margin-right: -7%;
 }
 
 .latest-games:hover {
@@ -46,11 +66,24 @@ svg {
 
 .latest-games-wapper {
   display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 900px) {
+  .game-name-div {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-name-div {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 500px) {
   .latest-games {
-    width: 48%;
+    width: 95%;
   }
   .small-gallery {
     width: 100%;
@@ -61,5 +94,11 @@ svg {
   }
   .latest-games-wapper {
     flex-direction: column-reverse;
+  }
+  .picture-size-controller {
+    width: 49%;
+  }
+  .game-name-div {
+    font-size: 15px;
   }
 }

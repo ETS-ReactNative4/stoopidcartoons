@@ -162,6 +162,7 @@ const babyPhoneDescription =
 const babyPhoneDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.babyphone';
 const babyPhoneCategory = 'Education';
+const babyPhoneName = 'Baby Phone';
 
 const balkanRoadsYouTube = '#';
 const balkanRoadsDescription =
@@ -169,6 +170,7 @@ const balkanRoadsDescription =
 const balkanRoadsDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.balkanroads';
 const balkanRoadsCategory = 'Action';
+const balkanRoadsName = 'Balkan Roads';
 
 const bankEscapeYouTube = 'https://www.youtube.com/watch?v=TQnyzWsp5X8';
 const bankEscapeDescription =
@@ -176,12 +178,14 @@ const bankEscapeDescription =
 const bankEscapeDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.bankescape';
 const bankEscapeCategory = 'Action';
+const bankEscapeName = 'Bank Escape';
 
 const bigBenYouTube = '#';
 const bigBenDescription = 'Carry the sounds of the Big Ben wherever you go';
 const bigBenDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.bigben';
 const bigBenCategory = 'Entertainment';
+const bigBenName = 'Big Ben';
 
 const cowboyDuelYouTube = 'https://www.youtube.com/watch?v=ZSon05IJwW0';
 const cowboyDuelDescription =
@@ -189,6 +193,7 @@ const cowboyDuelDescription =
 const cowboyDuelDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.cowboyduel';
 const cowboyDuelCategory = 'Action';
+const cowboyDuelName = 'Cowboy Duel';
 
 const doodleFidgetSpinnerYouTube = '#';
 const doodleFidgetSpinnerDescription =
@@ -196,6 +201,7 @@ const doodleFidgetSpinnerDescription =
 const doodleFidgetSpinnerDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.DoodleFidgetSpinner';
 const doodleFidgetSpinnerCategory = 'Simulation';
+const doodleFidgetSpinnerName = 'Fidget Spinner';
 
 const eMojiMachineYouTube = '#';
 const eMojiMachineDescription =
@@ -203,6 +209,7 @@ const eMojiMachineDescription =
 const eMojiMachineDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.iphonex';
 const eMojiMachineCategory = 'Adventure';
+const eMojiMachineName = 'eMoji Machine';
 
 const fiveSecondsStressTestYouTube = '#';
 const fiveSecondsStressTestDescription =
@@ -210,6 +217,7 @@ const fiveSecondsStressTestDescription =
 const fiveSecondsStressTestDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.stresstest';
 const fiveSecondsStressTestCategory = 'Entertainment';
+const fiveSecondsStressTestName = 'Stress Test';
 
 const gastarbajterYouTube = 'https://www.youtube.com/watch?v=VEYructqApQ';
 const gastarbajterDescription =
@@ -217,6 +225,7 @@ const gastarbajterDescription =
 const gastarbajterDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.gastarbajter';
 const gastarbajterCategory = 'Adventure';
+const gastarbajterName = 'Gastarbajter';
 
 const godVsStickmanYouTube = 'https://www.youtube.com/watch?v=6YJWuai4oe8';
 const godVsStickmanDescription =
@@ -224,6 +233,7 @@ const godVsStickmanDescription =
 const godVsStickmanDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.godvsstickman';
 const godVsStickmanCategory = 'Action';
+const godVsStickmanName = 'God Vs Stickman';
 
 const kissTheBossYouTube = 'https://www.youtube.com/watch?v=hVe6pIG1MTw&t=3s';
 const kissTheBossDescription =
@@ -231,6 +241,7 @@ const kissTheBossDescription =
 const kissTheBossDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.kisstheboss';
 const kissTheBossCategory = 'Entertainment';
+const kissTheBossName = 'Kiss The Boss';
 
 const mindReaderYouTube = '#';
 const mindReaderDescription =
@@ -238,6 +249,7 @@ const mindReaderDescription =
 const mindReaderDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.mindreader';
 const mindReaderCategory = 'Entertainment';
+const mindReaderName = 'Mind Reader';
 
 const naymarChallengeYouTube = '#';
 const naymarChallengeDescription =
@@ -245,6 +257,7 @@ const naymarChallengeDescription =
 const naymarChallengeDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.neymarchellenge';
 const naymarChallengeCategory = 'Action';
+const naymarChallengeName = 'Neymar Challenge';
 
 const podMac555YouTube = '#';
 const podMac555Description =
@@ -252,6 +265,7 @@ const podMac555Description =
 const podMac555DownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.podmac555333';
 const podMac555Category = 'Role Playing';
+const podMac555Name = 'Pod Mac 555-333';
 
 const podMacBatoYouTube = '#';
 const podMacBatoDescription =
@@ -259,6 +273,7 @@ const podMacBatoDescription =
 const podMacBatoDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.podmacbato';
 const podMacBatoCategory = 'Entertainment';
+const podMacBatoName = 'Pod Mac Bato';
 
 const santaTheLostPresentsYouTube = '#';
 const santaTheLostPresentsDescription =
@@ -266,6 +281,7 @@ const santaTheLostPresentsDescription =
 const santaTheLostPresentsDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.santaslostpresents';
 const santaTheLostPresentsCategory = 'Action';
+const santaTheLostPresentsName = 'The Lost Presents';
 
 const theBirdsYouTube = 'https://www.youtube.com/watch?v=EtYOTxJQcks';
 const theBirdsDescription =
@@ -273,11 +289,13 @@ const theBirdsDescription =
 const theBirdsDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.thebirds';
 const theBirdsCategory = 'Arcade';
+const theBirdsName = 'The Birds';
 
 const zeroDeathsYouTube = '#';
 const zeroDeathsDescription = 'COMING SOON';
 const zeroDeathsDownloadLink = '#';
 const zeroDeathsCategory = 'Action';
+const zeroDeathsName = 'Zero Deaths';
 
 const zigZagSkyYouTube = '#';
 const zigZagSkyDescription =
@@ -285,6 +303,7 @@ const zigZagSkyDescription =
 const zigZagSkyDownloadLink =
   'https://play.google.com/store/apps/details?id=com.stoopidcartoons.zigzagski';
 const zigZagSkyCategory = 'Arcade';
+const zigZagSkyName = 'Zig-Zag Ski';
 
 /*
 **************************
@@ -318,7 +337,8 @@ const babyPhone = [
   babyPhoneYouTube,
   babyPhoneDescription,
   babyPhoneDownloadLink,
-  youtubenotext
+  youtubenotext,
+  babyPhoneName
 ];
 const balkanRoads = [
   balkanRoadsCoverSmall,
@@ -331,7 +351,8 @@ const balkanRoads = [
   balkanRoadsYouTube,
   balkanRoadsDescription,
   balkanRoadsDownloadLink,
-  youtubenotext
+  youtubenotext,
+  balkanRoadsName
 ];
 const bankEscape = [
   bankEscapeCoverSmall,
@@ -344,7 +365,8 @@ const bankEscape = [
   bankEscapeYouTube,
   bankEscapeDescription,
   bankEscapeDownloadLink,
-  youtubetext
+  youtubetext,
+  bankEscapeName
 ];
 const bigBen = [
   bigBenCoverSmall,
@@ -357,7 +379,8 @@ const bigBen = [
   bigBenYouTube,
   bigBenDescription,
   bigBenDownloadLink,
-  youtubenotext
+  youtubenotext,
+  bigBenName
 ];
 const cowboyDuel = [
   cowboyDuelCoverSmall,
@@ -370,7 +393,8 @@ const cowboyDuel = [
   cowboyDuelYouTube,
   cowboyDuelDescription,
   cowboyDuelDownloadLink,
-  youtubetext
+  youtubetext,
+  cowboyDuelName
 ];
 const doodleFidgetSpinner = [
   doodleFidgetSpinnerCoverSmall,
@@ -383,7 +407,8 @@ const doodleFidgetSpinner = [
   doodleFidgetSpinnerYouTube,
   doodleFidgetSpinnerDescription,
   doodleFidgetSpinnerDownloadLink,
-  youtubenotext
+  youtubenotext,
+  doodleFidgetSpinnerName
 ];
 const eMojiMachine = [
   eMojiMachineCoverSmall,
@@ -396,7 +421,8 @@ const eMojiMachine = [
   eMojiMachineYouTube,
   eMojiMachineDescription,
   eMojiMachineDownloadLink,
-  youtubenotext
+  youtubenotext,
+  eMojiMachineName
 ];
 const fiveSecondsStressTest = [
   fiveSecondsStressTestCoverSmall,
@@ -409,7 +435,8 @@ const fiveSecondsStressTest = [
   fiveSecondsStressTestYouTube,
   fiveSecondsStressTestDescription,
   fiveSecondsStressTestDownloadLink,
-  youtubenotext
+  youtubenotext,
+  fiveSecondsStressTestName
 ];
 const gastarbajter = [
   gastarbajterCoverSmall,
@@ -422,7 +449,8 @@ const gastarbajter = [
   gastarbajterYouTube,
   gastarbajterDescription,
   gastarbajterDownloadLink,
-  youtubetext
+  youtubetext,
+  gastarbajterName
 ];
 const godVsStickman = [
   godVsStickmanCoverSmall,
@@ -435,7 +463,8 @@ const godVsStickman = [
   godVsStickmanYouTube,
   godVsStickmanDescription,
   godVsStickmanDownloadLink,
-  youtubetext
+  youtubetext,
+  godVsStickmanName
 ];
 const kissTheBoss = [
   kissTheBossCoverSmall,
@@ -448,7 +477,8 @@ const kissTheBoss = [
   kissTheBossYouTube,
   kissTheBossDescription,
   kissTheBossDownloadLink,
-  youtubetext
+  youtubetext,
+  kissTheBossName
 ];
 const mindReader = [
   mindReaderCoverSmall,
@@ -461,7 +491,8 @@ const mindReader = [
   mindReaderYouTube,
   mindReaderDescription,
   mindReaderDownloadLink,
-  youtubenotext
+  youtubenotext,
+  mindReaderName
 ];
 
 const naymarChallenge = [
@@ -475,7 +506,8 @@ const naymarChallenge = [
   naymarChallengeYouTube,
   naymarChallengeDescription,
   naymarChallengeDownloadLink,
-  youtubenotext
+  youtubenotext,
+  naymarChallengeName
 ];
 const podMac555 = [
   podMac555CoverSmall,
@@ -488,7 +520,8 @@ const podMac555 = [
   podMac555YouTube,
   podMac555Description,
   podMac555DownloadLink,
-  youtubenotext
+  youtubenotext,
+  podMac555Name
 ];
 const podMacBato = [
   podMacBatoCoverSmall,
@@ -501,7 +534,8 @@ const podMacBato = [
   podMacBatoYouTube,
   podMacBatoDescription,
   podMacBatoDownloadLink,
-  youtubenotext
+  youtubenotext,
+  podMacBatoName
 ];
 const santaTheLostPresents = [
   santaTheLostPresentsCoverSmall,
@@ -514,7 +548,8 @@ const santaTheLostPresents = [
   santaTheLostPresentsYouTube,
   santaTheLostPresentsDescription,
   santaTheLostPresentsDownloadLink,
-  youtubenotext
+  youtubenotext,
+  santaTheLostPresentsName
 ];
 const theBirds = [
   theBirdsCoverSmall,
@@ -527,7 +562,8 @@ const theBirds = [
   theBirdsYouTube,
   theBirdsDescription,
   theBirdsDownloadLink,
-  youtubetext
+  youtubetext,
+  theBirdsName
 ];
 const zeroDeaths = [
   zeroDeathsCoverSmall,
@@ -540,7 +576,8 @@ const zeroDeaths = [
   zeroDeathsYouTube,
   zeroDeathsDescription,
   zeroDeathsDownloadLink,
-  youtubenotext
+  youtubenotext,
+  zeroDeathsName
 ];
 const zigZagSky = [
   zigZagSkyCoverSmall,
@@ -553,7 +590,8 @@ const zigZagSky = [
   zigZagSkyYouTube,
   zigZagSkyDescription,
   zigZagSkyDownloadLink,
-  youtubenotext
+  youtubenotext,
+  zigZagSkyName
 ];
 
 const arrayForMap = [

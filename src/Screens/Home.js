@@ -74,20 +74,9 @@ class Home extends Component {
             />
           </div>
 
-          <div
-            className="latest-games-wapper"
-            // style={{
-            //   display: 'flex'
-            // }}
-          >
+          <div className="latest-games-wapper">
             {/* Text div */}
-            <div
-              className="description-text"
-              // style={{
-              //   width: '50%',
-              //   height: 'auto'
-              // }}
-            >
+            <div className="description-text">
               <strong>CATEGORY:</strong>
               <br />
               {this.state.data[6]} <br />
@@ -189,14 +178,7 @@ class Home extends Component {
             </div>
 
             {/* Small Gallery Div */}
-            <div
-              className="small-gallery"
-              // style={{
-              //   width: '50%',
-              //   height: 'auto',
-              //   overflow: 'hidden'
-              // }}
-            >
+            <div className="small-gallery">
               <ImageGallery
                 showThumbnails={false}
                 showFullscreenButton={false}
@@ -237,23 +219,39 @@ class Home extends Component {
             </h3>
           </Link>
         </div>
-        {LatestGames.map(i => {
-          return (
-            <img
-              className="latest-games"
-              src={i[0]}
-              key={i}
-              onClick={() => {
-                document.querySelector('#home-gallery').style.display = 'none';
-                document.querySelector('#start').style.display = 'block';
-                this.setState({ data: i });
-                window.scroll(0, 0);
-              }}
-              style={{ cursor: 'pointer' }}
-              alt=""
-            />
-          );
-        })}
+        <div className="inline-block-div">
+          {LatestGames.map(i => {
+            return (
+              <div className="picture-size-controller">
+                <img
+                  className="latest-games"
+                  src={i[0]}
+                  key={i}
+                  onClick={() => {
+                    document.querySelector('#home-gallery').style.display =
+                      'none';
+                    document.querySelector('#start').style.display = 'block';
+                    this.setState({ data: i });
+                    window.scroll(0, 0);
+                  }}
+                  alt=""
+                />
+                <div
+                  className="game-name-div"
+                  onClick={() => {
+                    document.querySelector('#home-gallery').style.display =
+                      'none';
+                    document.querySelector('#start').style.display = 'block';
+                    this.setState({ data: i });
+                    window.scroll(0, 0);
+                  }}
+                >
+                  {i[11]}
+                </div>
+              </div>
+            );
+          })}{' '}
+        </div>
       </div>
     );
   }
