@@ -77,12 +77,11 @@ class Home extends Component {
           <div className="latest-games-wapper">
             {/* Text div */}
             <div className="description-text">
-              <strong>CATEGORY:</strong>
-              <br />
+              <h1 className="h1-tags">CATEGORY:</h1>
               {this.state.data[6]} <br />
-              <strong>PUBLISHER:</strong> <br />
+              <h1 className="h1-tags">PUBLISHER:</h1>
               St00pid Cart00ns <br />
-              <strong>GAMEPLAY VIDEO:</strong>
+              <h1 className="h1-tags">GAMEPLAY VIDEO:</h1>
               <a
                 style={{ padding: '5px', fontSize: '17px' }}
                 href={this.state.data[7]}
@@ -91,10 +90,7 @@ class Home extends Component {
                 {this.state.data[10]}
               </a>
               <br />
-              <h3>
-                <strong>OVERVIEW</strong>
-              </h3>
-              <br />
+              <h1 className="h1-tags">OVERVIEW</h1>
               <div>{this.state.data[8]}</div>
               {/* DownloadLinksDiv */}
               <div
@@ -116,7 +112,7 @@ class Home extends Component {
                   marginTop: '5%'
                 }}
               >
-                <strong>Share It On:</strong>
+                <h1 className="h1-tags">Share It On:</h1>
                 <div
                   style={{
                     display: 'flex',
@@ -222,7 +218,7 @@ class Home extends Component {
         <div className="inline-block-div">
           {LatestGames.map(i => {
             return (
-              <div className="picture-size-controller">
+              <div key={i} className="picture-size-controller">
                 <img
                   className="latest-games"
                   src={i[0]}
@@ -250,7 +246,7 @@ class Home extends Component {
                 </div>
               </div>
             );
-          })}{' '}
+          })}
         </div>
       </div>
     );

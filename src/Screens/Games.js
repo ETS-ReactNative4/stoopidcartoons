@@ -80,32 +80,21 @@ class Home extends Component {
             // }}
           >
             {/* Text div */}
-            <div
-              className="description-text"
-              // style={{
-              //   width: '50%',
-              //   height: 'auto'
-              // }}
-            >
-              <strong>CATEGORY:</strong>
-              <br />
+            <div className="description-text">
+              <h1 className="h1-tags">CATEGORY:</h1>
               {this.state.data[6]} <br />
-              <strong>PUBLISHER:</strong>
-              <br />
+              <h1 className="h1-tags">PUBLISHER:</h1>
               St00pid Cart00ns <br />
-              <strong>GAMEPLAY VIDEO:</strong>
+              <h1 className="h1-tags">GAMEPLAY VIDEO:</h1>
               <a
-                style={{ fontSize: '17px', padding: '5px' }}
+                style={{ padding: '5px', fontSize: '17px' }}
                 href={this.state.data[7]}
                 target="_blank"
               >
                 {this.state.data[10]}
               </a>
               <br />
-              <h3>
-                <strong>OVERVIEW</strong>
-              </h3>
-              <br />
+              <h1 className="h1-tags">OVERVIEW</h1>
               <div>{this.state.data[8]}</div>
               {/* DownloadLinksDiv */}
               <div
@@ -224,15 +213,16 @@ class Home extends Component {
         <div className="inline-block-div">
           {arrayForMap.map(i => {
             return (
-              <div className="picture-size-controller">
+              <div key={i} className="picture-size-controller">
                 <img
                   className="latest-games"
                   src={i[0]}
                   key={i}
                   onClick={() => {
-                    document.querySelector('#home-gallery').style.display =
+                    document.querySelector('#AboutUsCoverImage').style.display =
                       'none';
-                    document.querySelector('#start').style.display = 'block';
+                    document.querySelector('#startGames').style.display =
+                      'block';
                     this.setState({ data: i });
                     window.scroll(0, 0);
                   }}
@@ -241,9 +231,10 @@ class Home extends Component {
                 <div
                   className="game-name-div"
                   onClick={() => {
-                    document.querySelector('#home-gallery').style.display =
+                    document.querySelector('#AboutUsCoverImage').style.display =
                       'none';
-                    document.querySelector('#start').style.display = 'block';
+                    document.querySelector('#startGames').style.display =
+                      'block';
                     this.setState({ data: i });
                     window.scroll(0, 0);
                   }}
@@ -252,7 +243,7 @@ class Home extends Component {
                 </div>
               </div>
             );
-          })}{' '}
+          })}
         </div>
       </div>
     );
