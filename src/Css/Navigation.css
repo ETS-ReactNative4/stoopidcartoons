@@ -14,6 +14,7 @@ a {
   font-weight: bold;
   text-decoration: none;
   padding: 15px 15px;
+  outline: none;
 }
 
 a:hover,
@@ -22,6 +23,7 @@ a.active {
   transition-duration: 0.5s;
   transform: scale(1.19);
   color: #af1f1f;
+  outline: none;
 }
 
 nav {
