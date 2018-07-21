@@ -1,6 +1,8 @@
 import React from 'react';
 import AboutUsCoverImage from '../Components/AboutUsCoverImage';
 import { SocialMediaIcons } from '../Assets/index';
+import Mailto from 'react-protected-mailto';
+
 import '../Css/ContactUs.css';
 
 const ContactUs = () => {
@@ -18,9 +20,12 @@ const ContactUs = () => {
           then we want to hear from you!
         </p>
 
-        <h3>Please email us at the following addresse:</h3>
-
-        <strong style={{ fontSize: '17px' }}>stoopidcartoons@gmail.com</strong>
+        <h3>
+          E-Mail Us:<Mailto
+            style={{ fontSize: '13px' }}
+            email="stoopidcartoons@gmail.com"
+          />
+        </h3>
 
         <h1>FOLLOW US</h1>
         <p style={{ fontSize: '17px' }}>
