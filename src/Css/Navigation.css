@@ -56,8 +56,8 @@ nav .navNarrow img {
   height: 70px;
   cursor: pointer;
   color: white;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); */
 }
 nav .navNarrow .narrowLinks {
   display: none;
@@ -191,5 +191,11 @@ ul {
 
   .socialMediaIconsNavigation:active {
     transform: scale(0.95);
+  }
+  a {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0;
   }
 }

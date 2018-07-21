@@ -19,14 +19,8 @@ const ContactUs = () => {
           If you love our games, have some suggestions, or simply want to chat,
           then we want to hear from you!
         </p>
-
-        <h3>
-          E-Mail Us:<Mailto
-            style={{ fontSize: '13px' }}
-            email="stoopidcartoons@gmail.com"
-          />
-        </h3>
-
+        <h3>E-Mail Us:</h3>
+        <Mailto email="stoopidcartoons@gmail.com" />
         <h1>FOLLOW US</h1>
         <p style={{ fontSize: '17px' }}>
           Get more info about our games, latest news and share your opinion with
