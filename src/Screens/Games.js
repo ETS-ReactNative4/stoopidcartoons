@@ -94,7 +94,11 @@ class Home extends Component {
               <br />
               St00pid Cart00ns <br />
               <strong>GAMEPLAY VIDEO:</strong>
-              <a href={this.state.data[7]} target="_blank">
+              <a
+                style={{ fontSize: '17px', padding: '5px' }}
+                href={this.state.data[7]}
+                target="_blank"
+              >
                 YouTube
               </a>
               <br />
@@ -109,7 +113,11 @@ class Home extends Component {
                   marginTop: '5%'
                 }}
               >
-                <a href={this.state.data[9]} target="_blank">
+                <a
+                  style={{ padding: 0 }}
+                  href={this.state.data[9]}
+                  target="_blank"
+                >
                   <img src={googlePlay} alt="Download now from GooglePlay" />
                 </a>
               </div>

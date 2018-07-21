@@ -10,23 +10,24 @@
 a {
   text-decoration: none;
   color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 15px;
 }
 
-a:hover {
-  text-decoration: underline;
-
-  color: rgb(255, 255, 255);
+a:hover,
+a:active,
+a.active {
+  transition-duration: 0.5s;
+  transform: scale(1.19);
+  color: #af1f1f;
 }
 
 nav {
   overflow: hidden;
 
   border-radius: 10px;
-}
-nav li {
-  font-size: 25px;
-  font-weight: bold;
-  color: #ffff;
 }
 
 nav li:hover {
@@ -46,9 +47,9 @@ nav .navWide .wideDiv {
   text-align: center;
 }
 nav .navWide .wideDiv li {
-  text-decoration: none;
+  /* text-decoration: none;
   display: inline-block;
-  padding: 15px 15px;
+  padding: 15px 15px; */
 }
 nav .navNarrow img {
   width: 70px;
@@ -69,6 +70,7 @@ nav .navNarrow .narrowLinks li {
   float: left;
   clear: left;
   padding: 10px;
+  font-size: 17px;
 }
 
 ul {

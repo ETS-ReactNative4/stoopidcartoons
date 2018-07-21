@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
-import '../Css/Navigation.css';
-import { Link } from 'react-router-dom';
-import { LogoImage } from '../Assets/index';
+import React, { Component } from "react";
+import "../Css/Navigation.css";
+import { Link, NavLink } from "react-router-dom";
+import { LogoImage } from "../Assets/index";
 
-import { SocialMediaIcons } from '../Assets/index';
+import { SocialMediaIcons } from "../Assets/index";
 
 const burgerToggle = () => {
-  let linksEl = document.querySelector('.narrowLinks');
-  if (linksEl.style.display === 'block') {
-    linksEl.style.display = 'none';
+  let linksEl = document.querySelector(".narrowLinks");
+  if (linksEl.style.display === "block") {
+    linksEl.style.display = "none";
   } else {
-    linksEl.style.display = 'block';
+    linksEl.style.display = "block";
   }
 };
 
@@ -22,42 +22,43 @@ class Navigation extends Component {
           <div className="navWide">
             <div className="wideDiv">
               <ul>
-                <Link
-                  id="teststyle"
+                <NavLink
+                  exact
                   to="/"
                   onClick={() => {
                     setTimeout(() => {
-                      document.querySelector('#home-gallery').style.display =
-                        'block';
-                      document.querySelector('#start').style.display = 'none';
+                      document.querySelector("#home-gallery").style.display =
+                        "block";
+                      document.querySelector("#start").style.display = "none";
                     }, 10);
                   }}
                 >
-                  <li>Home</li>
-                </Link>
+                  Home
+                </NavLink>
 
-                <Link
+                <NavLink
+                  exact
                   to="/games"
                   onClick={() => {
                     setTimeout(() => {
                       document.querySelector(
-                        '#AboutUsCoverImage'
+                        "#AboutUsCoverImage"
                       ).style.display =
-                        'block';
-                      document.querySelector('#startGames').style.display =
-                        'none';
+                        "block";
+                      document.querySelector("#startGames").style.display =
+                        "none";
                     }, 10);
                   }}
                 >
-                  <li>Games</li>
-                </Link>
+                  Games
+                </NavLink>
 
-                <Link to="/aboutus">
-                  <li>About</li>
-                </Link>
-                <Link to="/contactus">
-                  <li>Contact</li>
-                </Link>
+                <NavLink exact to="/aboutus">
+                  About
+                </NavLink>
+                <NavLink exact to="/contactus">
+                  Contact
+                </NavLink>
               </ul>
             </div>
           </div>
@@ -72,36 +73,38 @@ class Navigation extends Component {
             <div className="narrowLinks">
               <ul>
                 <Link
+                  style={{ padding: "0" }}
                   to="/"
                   onClick={() => {
                     setTimeout(function() {
-                      document.querySelector('#home-gallery').style.display =
-                        'block';
-                      document.querySelector('#start').style.display = 'none';
+                      document.querySelector("#home-gallery").style.display =
+                        "block";
+                      document.querySelector("#start").style.display = "none";
                     }, 10);
                   }}
                 >
                   <li onClick={burgerToggle}>HOME</li>
                 </Link>
                 <Link
+                  style={{ padding: "0" }}
                   to="/games"
                   onClick={() => {
                     setTimeout(function() {
                       document.querySelector(
-                        '#AboutUsCoverImage'
+                        "#AboutUsCoverImage"
                       ).style.display =
-                        'block';
-                      document.querySelector('#startGames').style.display =
-                        'none';
+                        "block";
+                      document.querySelector("#startGames").style.display =
+                        "none";
                     }, 10);
                   }}
                 >
                   <li onClick={burgerToggle}>GAMES</li>
                 </Link>
-                <Link to="/aboutus">
+                <Link style={{ padding: "0" }} to="/aboutus">
                   <li onClick={burgerToggle}>ABOUT</li>
                 </Link>
-                <Link to="/contactus">
+                <Link style={{ padding: "0" }} to="/contactus">
                   <li onClick={burgerToggle}>CONTACT</li>
                 </Link>
               </ul>
@@ -111,6 +114,7 @@ class Navigation extends Component {
 
         <div id="socialMediaImageNavigation">
           <a
+            style={{ padding: "0" }}
             href="https://www.facebook.com/StoopidCartoons/?fref=ts"
             target="_blank"
             rel="noopener noreferrer"
@@ -123,6 +127,7 @@ class Navigation extends Component {
           </a>
 
           <a
+            style={{ padding: "0" }}
             href="https://twitter.com/St00pidCart00ns"
             target="_blank"
             rel="noopener noreferrer"
@@ -135,6 +140,7 @@ class Navigation extends Component {
           </a>
 
           <a
+            style={{ padding: "0" }}
             href="https://www.instagram.com/st00pid_cart00ns/"
             target="_blank"
             rel="noopener noreferrer"
@@ -147,6 +153,7 @@ class Navigation extends Component {
           </a>
 
           <a
+            style={{ padding: "0" }}
             href="https://www.youtube.com/channel/UCU-228KOXPG3jMgffbNV1Gg?view_as=subscriber"
             target="_blank"
             rel="noopener noreferrer"
@@ -159,6 +166,7 @@ class Navigation extends Component {
           </a>
 
           <a
+            style={{ padding: "0" }}
             href="https://play.google.com/store/apps/dev?id=9103063599459576814"
             target="_blank"
             rel="noopener noreferrer"

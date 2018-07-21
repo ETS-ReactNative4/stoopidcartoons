@@ -94,7 +94,11 @@ class Home extends Component {
               <strong>PUBLISHER:</strong> <br />
               St00pid Cart00ns <br />
               <strong>GAMEPLAY VIDEO:</strong>
-              <a href={this.state.data[7]} target="_blank">
+              <a
+                style={{ padding: '5px', fontSize: '17px' }}
+                href={this.state.data[7]}
+                target="_blank"
+              >
                 YouTube
               </a>
               <br />
@@ -109,7 +113,11 @@ class Home extends Component {
                   marginTop: '5%'
                 }}
               >
-                <a href={this.state.data[9]} target="_blank">
+                <a
+                  style={{ padding: '0' }}
+                  href={this.state.data[9]}
+                  target="_blank"
+                >
                   <img src={googlePlay} alt="Download now from GooglePlay" />
                 </a>
               </div>
@@ -217,7 +225,11 @@ class Home extends Component {
           <h3>
             <strong>Latest Games</strong>
           </h3>
-          <Link to="/games" onClick={() => window.scroll(0, 0)}>
+          <Link
+            style={{ padding: 0, fontSize: '16px' }}
+            to="/games"
+            onClick={() => window.scroll(0, 0)}
+          >
             <h3>
               <span>
                 <strong>ALL GAMES ></strong>
