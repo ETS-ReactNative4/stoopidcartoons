@@ -304,6 +304,9 @@ const zigZagSkyCategory = 'Arcade';
 // raspored: mali cover, veliki cover, galerija,
 // kategorija, youtube, opis, download
 
+const youtubetext = 'YouTube >';
+const youtubenotext = ' ';
+
 const babyPhone = [
   babyPhoneCoverSmall,
   babyPhoneCover,
@@ -314,7 +317,8 @@ const babyPhone = [
   babyPhoneCategory,
   babyPhoneYouTube,
   babyPhoneDescription,
-  babyPhoneDownloadLink
+  babyPhoneDownloadLink,
+  youtubenotext
 ];
 const balkanRoads = [
   balkanRoadsCoverSmall,
@@ -326,7 +330,8 @@ const balkanRoads = [
   balkanRoadsCategory,
   balkanRoadsYouTube,
   balkanRoadsDescription,
-  balkanRoadsDownloadLink
+  balkanRoadsDownloadLink,
+  youtubenotext
 ];
 const bankEscape = [
   bankEscapeCoverSmall,
@@ -338,7 +343,8 @@ const bankEscape = [
   bankEscapeCategory,
   bankEscapeYouTube,
   bankEscapeDescription,
-  bankEscapeDownloadLink
+  bankEscapeDownloadLink,
+  youtubetext
 ];
 const bigBen = [
   bigBenCoverSmall,
@@ -350,7 +356,8 @@ const bigBen = [
   bigBenCategory,
   bigBenYouTube,
   bigBenDescription,
-  bigBenDownloadLink
+  bigBenDownloadLink,
+  youtubenotext
 ];
 const cowboyDuel = [
   cowboyDuelCoverSmall,
@@ -362,7 +369,8 @@ const cowboyDuel = [
   cowboyDuelCategory,
   cowboyDuelYouTube,
   cowboyDuelDescription,
-  cowboyDuelDownloadLink
+  cowboyDuelDownloadLink,
+  youtubetext
 ];
 const doodleFidgetSpinner = [
   doodleFidgetSpinnerCoverSmall,
@@ -374,7 +382,8 @@ const doodleFidgetSpinner = [
   doodleFidgetSpinnerCategory,
   doodleFidgetSpinnerYouTube,
   doodleFidgetSpinnerDescription,
-  doodleFidgetSpinnerDownloadLink
+  doodleFidgetSpinnerDownloadLink,
+  youtubenotext
 ];
 const eMojiMachine = [
   eMojiMachineCoverSmall,
@@ -386,7 +395,8 @@ const eMojiMachine = [
   eMojiMachineCategory,
   eMojiMachineYouTube,
   eMojiMachineDescription,
-  eMojiMachineDownloadLink
+  eMojiMachineDownloadLink,
+  youtubenotext
 ];
 const fiveSecondsStressTest = [
   fiveSecondsStressTestCoverSmall,
@@ -398,7 +408,8 @@ const fiveSecondsStressTest = [
   fiveSecondsStressTestCategory,
   fiveSecondsStressTestYouTube,
   fiveSecondsStressTestDescription,
-  fiveSecondsStressTestDownloadLink
+  fiveSecondsStressTestDownloadLink,
+  youtubenotext
 ];
 const gastarbajter = [
   gastarbajterCoverSmall,
@@ -410,7 +421,8 @@ const gastarbajter = [
   gastarbajterCategory,
   gastarbajterYouTube,
   gastarbajterDescription,
-  gastarbajterDownloadLink
+  gastarbajterDownloadLink,
+  youtubetext
 ];
 const godVsStickman = [
   godVsStickmanCoverSmall,
@@ -422,7 +434,8 @@ const godVsStickman = [
   godVsStickmanCategory,
   godVsStickmanYouTube,
   godVsStickmanDescription,
-  godVsStickmanDownloadLink
+  godVsStickmanDownloadLink,
+  youtubetext
 ];
 const kissTheBoss = [
   kissTheBossCoverSmall,
@@ -434,7 +447,8 @@ const kissTheBoss = [
   kissTheBossCategory,
   kissTheBossYouTube,
   kissTheBossDescription,
-  kissTheBossDownloadLink
+  kissTheBossDownloadLink,
+  youtubetext
 ];
 const mindReader = [
   mindReaderCoverSmall,
@@ -446,8 +460,10 @@ const mindReader = [
   mindReaderCategory,
   mindReaderYouTube,
   mindReaderDescription,
-  mindReaderDownloadLink
+  mindReaderDownloadLink,
+  youtubenotext
 ];
+
 const naymarChallenge = [
   naymarChallengeCoverSmall,
   naymarChallengeCover,
@@ -458,7 +474,8 @@ const naymarChallenge = [
   naymarChallengeCategory,
   naymarChallengeYouTube,
   naymarChallengeDescription,
-  naymarChallengeDownloadLink
+  naymarChallengeDownloadLink,
+  youtubenotext
 ];
 const podMac555 = [
   podMac555CoverSmall,
@@ -470,7 +487,8 @@ const podMac555 = [
   podMac555Category,
   podMac555YouTube,
   podMac555Description,
-  podMac555DownloadLink
+  podMac555DownloadLink,
+  youtubenotext
 ];
 const podMacBato = [
   podMacBatoCoverSmall,
@@ -482,7 +500,8 @@ const podMacBato = [
   podMacBatoCategory,
   podMacBatoYouTube,
   podMacBatoDescription,
-  podMacBatoDownloadLink
+  podMacBatoDownloadLink,
+  youtubenotext
 ];
 const santaTheLostPresents = [
   santaTheLostPresentsCoverSmall,
@@ -494,7 +513,8 @@ const santaTheLostPresents = [
   santaTheLostPresentsCategory,
   santaTheLostPresentsYouTube,
   santaTheLostPresentsDescription,
-  santaTheLostPresentsDownloadLink
+  santaTheLostPresentsDownloadLink,
+  youtubenotext
 ];
 const theBirds = [
   theBirdsCoverSmall,
@@ -506,7 +526,8 @@ const theBirds = [
   theBirdsCategory,
   theBirdsYouTube,
   theBirdsDescription,
-  theBirdsDownloadLink
+  theBirdsDownloadLink,
+  youtubetext
 ];
 const zeroDeaths = [
   zeroDeathsCoverSmall,
@@ -518,7 +539,8 @@ const zeroDeaths = [
   zeroDeathsCategory,
   zeroDeathsYouTube,
   zeroDeathsDescription,
-  zeroDeathsDownloadLink
+  zeroDeathsDownloadLink,
+  youtubenotext
 ];
 const zigZagSky = [
   zigZagSkyCoverSmall,
@@ -530,7 +552,8 @@ const zigZagSky = [
   zigZagSkyCategory,
   zigZagSkyYouTube,
   zigZagSkyDescription,
-  zigZagSkyDownloadLink
+  zigZagSkyDownloadLink,
+  youtubenotext
 ];
 
 const arrayForMap = [

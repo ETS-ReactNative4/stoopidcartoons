@@ -99,7 +99,7 @@ class Home extends Component {
                 href={this.state.data[7]}
                 target="_blank"
               >
-                YouTube >
+                {this.state.data[10]}
               </a>
               <br />
               <h3>
