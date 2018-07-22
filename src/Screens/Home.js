@@ -74,31 +74,23 @@ class Home extends Component {
             />
           </div>
 
-          <div
-            style={{
-              display: 'flex'
-            }}
-          >
+          <div className="latest-games-wapper">
             {/* Text div */}
-            <div
-              style={{
-                width: '50%',
-                height: 'auto'
-              }}
-            >
-              <strong>CATEGORY:</strong>
+            <div className="description-text">
+              <h1 className="h1-tags">CATEGORY:</h1>
               {this.state.data[6]} <br />
-              <strong>PUBLISHER:</strong>
+              <h1 className="h1-tags">PUBLISHER:</h1>
               St00pid Cart00ns <br />
-              <strong>GAMEPLAY VIDEO:</strong>
-              <a href={this.state.data[7]} target="_blank">
-                YouTube
+              <h1 className="h1-tags">GAMEPLAY VIDEO:</h1>
+              <a
+                style={{ padding: '5px', fontSize: '17px' }}
+                href={this.state.data[7]}
+                target="_blank"
+              >
+                {this.state.data[10]}
               </a>
               <br />
-              <h3>
-                <strong>OVERVIEW</strong>
-              </h3>
-              <br />
+              <h1 className="h1-tags">OVERVIEW</h1>
               <div>{this.state.data[8]}</div>
               {/* DownloadLinksDiv */}
               <div
@@ -106,7 +98,11 @@ class Home extends Component {
                   marginTop: '5%'
                 }}
               >
-                <a href={this.state.data[9]} target="_blank">
+                <a
+                  style={{ padding: '0' }}
+                  href={this.state.data[9]}
+                  target="_blank"
+                >
                   <img src={googlePlay} alt="Download now from GooglePlay" />
                 </a>
               </div>
@@ -116,7 +112,7 @@ class Home extends Component {
                   marginTop: '5%'
                 }}
               >
-                <strong>Share It On:</strong>
+                <h1 className="h1-tags">Share It On:</h1>
                 <div
                   style={{
                     display: 'flex',
@@ -178,13 +174,7 @@ class Home extends Component {
             </div>
 
             {/* Small Gallery Div */}
-            <div
-              style={{
-                width: '50%',
-                height: '50%',
-                overflow: 'hidden'
-              }}
-            >
+            <div className="small-gallery">
               <ImageGallery
                 showThumbnails={false}
                 showFullscreenButton={false}
@@ -213,31 +203,51 @@ class Home extends Component {
           <h3>
             <strong>Latest Games</strong>
           </h3>
-          <Link to="/games" onClick={() => window.scroll(0, 0)}>
+          <Link
+            style={{ padding: 0, fontSize: '16px' }}
+            to="/games"
+            onClick={() => window.scroll(0, 0)}
+          >
             <h3>
               <span>
-                <strong>All Games</strong>
+                <strong>ALL GAMES ></strong>
               </span>
             </h3>
           </Link>
         </div>
-        {LatestGames.map(i => {
-          return (
-            <img
-              className="latest-games"
-              src={i[0]}
-              key={i}
-              onClick={() => {
-                document.querySelector('#home-gallery').style.display = 'none';
-                document.querySelector('#start').style.display = 'block';
-                this.setState({ data: i });
-                window.scroll(0, 0);
-              }}
-              style={{ cursor: 'pointer' }}
-              alt=""
-            />
-          );
-        })}
+        <div className="inline-block-div">
+          {LatestGames.map(i => {
+            return (
+              <div key={i} className="picture-size-controller">
+                <img
+                  className="latest-games"
+                  src={i[0]}
+                  key={i}
+                  onClick={() => {
+                    document.querySelector('#home-gallery').style.display =
+                      'none';
+                    document.querySelector('#start').style.display = 'block';
+                    this.setState({ data: i });
+                    window.scroll(0, 0);
+                  }}
+                  alt=""
+                />
+                <div
+                  className="game-name-div"
+                  onClick={() => {
+                    document.querySelector('#home-gallery').style.display =
+                      'none';
+                    document.querySelector('#start').style.display = 'block';
+                    this.setState({ data: i });
+                    window.scroll(0, 0);
+                  }}
+                >
+                  {i[11]}
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   }

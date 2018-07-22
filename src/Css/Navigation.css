@@ -10,23 +10,26 @@
 a {
   text-decoration: none;
   color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 15px;
+  outline: none;
 }
 
-a:hover {
-  text-decoration: underline;
-
-  color: rgb(255, 255, 255);
+a:hover,
+a:active,
+a.active {
+  transition-duration: 0.5s;
+  transform: scale(1.19);
+  color: #af1f1f;
+  outline: none;
 }
 
 nav {
   overflow: hidden;
 
   border-radius: 10px;
-}
-nav li {
-  font-size: 25px;
-  font-weight: bold;
-  color: #ffff;
 }
 
 nav li:hover {
@@ -46,17 +49,17 @@ nav .navWide .wideDiv {
   text-align: center;
 }
 nav .navWide .wideDiv li {
-  text-decoration: none;
+  /* text-decoration: none;
   display: inline-block;
-  padding: 15px 15px;
+  padding: 15px 15px; */
 }
 nav .navNarrow img {
   width: 70px;
   height: 70px;
   cursor: pointer;
   color: white;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); */
 }
 nav .navNarrow .narrowLinks {
   display: none;
@@ -69,6 +72,7 @@ nav .navNarrow .narrowLinks li {
   float: left;
   clear: left;
   padding: 10px;
+  font-size: 17px;
 }
 
 ul {
@@ -128,7 +132,7 @@ ul {
     align-self: auto;
   }
   nav li {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -174,7 +178,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-top: 50px;
+    padding-top: 25px;
   }
 
   .socialMediaIconsNavigation {
@@ -189,5 +193,11 @@ ul {
 
   .socialMediaIconsNavigation:active {
     transform: scale(0.95);
+  }
+  a {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0;
   }
 }
