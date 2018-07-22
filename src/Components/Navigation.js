@@ -72,8 +72,9 @@ class Navigation extends Component {
 
             <div className="narrowLinks">
               <ul>
-                <Link
+                <NavLink
                   style={{ padding: "0" }}
+                  exact
                   to="/"
                   onClick={() => {
                     setTimeout(function() {
@@ -84,8 +85,8 @@ class Navigation extends Component {
                   }}
                 >
                   <li onClick={burgerToggle}>HOME</li>
-                </Link>
-                <Link
+                </NavLink>
+                <NavLink
                   style={{ padding: "0" }}
                   to="/games"
                   onClick={() => {
@@ -100,13 +101,13 @@ class Navigation extends Component {
                   }}
                 >
                   <li onClick={burgerToggle}>GAMES</li>
-                </Link>
-                <Link style={{ padding: "0" }} to="/aboutus">
+                </NavLink>
+                <NavLink style={{ padding: "0" }} to="/aboutus">
                   <li onClick={burgerToggle}>ABOUT</li>
-                </Link>
-                <Link style={{ padding: "0" }} to="/contactus">
+                </NavLink>
+                <NavLink style={{ padding: "0" }} to="/contactus">
                   <li onClick={burgerToggle}>CONTACT</li>
-                </Link>
+                </NavLink>
               </ul>
             </div>
           </div>
